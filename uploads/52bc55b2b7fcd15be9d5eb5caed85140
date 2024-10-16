@@ -1,0 +1,222 @@
+﻿<form class="fiserv-form" id="the-form" name="the-form" method="post" action="https://whstage1.secureinternetbank.com/secureforms/forms/fiserv/blank">
+
+    <header>
+        <input type="hidden" name="submitClientID" value="B71661D6-0CB6-4C9F-B468-2CEE36BE3877">
+        <input type="hidden" name="submitFormdesc" value="Personal Account Application">
+        <input type="hidden" name="submitReDirect" value="../Forms/Fiserv/success.aspx">
+        <input type="hidden" name="secureFormParams" value="">
+        <h1>Personal Account Application</h1>
+
+    </header>
+    <section>
+        <h2>Individual Information</h2>
+        <div data-duplicate="2">
+            <h3 class="iterate">Individual</h3>
+            <label class="two-thirds">
+                <input type="text" name="individual-first-name" required>
+                <span>First Name</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="individual-middle-initial">
+                <span>Middle Initial</span>
+            </label>
+            <label class="two-thirds">
+                <input type="text" name="individual-last-name" required>
+                <span>Last Name</span>
+            </label>
+            <label class="thirds">
+                <select name="individual-suffix">
+                    <option value="">Select Suffix</option>
+                    <option>I</option>
+                    <option>II</option>
+                    <option>III</option>
+                    <option>IV</option>
+                    <option>Jr.</option>
+                    <option>Sr.</option>
+                </select>
+                <span>Suffix</span>
+            </label>
+            <label class="thirds">
+                <input class="ssn" type="text" name="individual-social-security-number" required>
+                <span>Social Security Number</span>
+            </label>
+            <label class="thirds">
+                <input class="date" type="text" name="individual-birth-date" required>
+                <span>Birth Date</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="individual-mothers-maiden-name" required>
+                <span>Mother's Maiden Name</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="individual-id" required>
+                <span>ID Type/Number</span>
+            </label>
+            <label class="thirds">
+                <select name="individual-driver-license-state" required>
+                    <option value="">Select State Issued</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State Issued</span>
+            </label>
+            <label class="thirds">
+                <input class="date" type="text" name="individual-driver-license-expiration" required>
+                <span>Date of Expiration</span>
+            </label>
+            <label>
+                <input type="text" name="individual-address" required>
+                <span>Street Address</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="individual-city" required>
+                <span>City</span>
+            </label>
+            <label class="thirds">
+                <select name="individual-state" required>
+                    <option value="">Select State</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State</span>
+            </label>
+            <label class="thirds">
+                <input class="zip" type="text" name="individual-zip-code" required>
+                <span>Zip Code</span>
+            </label>
+            <label>
+                <input type="checkbox" name="individual-mailing-not-street-address" value="yes">
+                <span>Mailing address is different than street address.</span>
+            </label>
+            <div data-expander="individual-mailing-not-street-address">
+                <label>
+                    <input type="text" name="individual-mailing-address" required>
+                    <span>Mailing Address</span>
+                </label>
+                <label class="thirds">
+                    <input type="text" name="individual-mailing-city" required>
+                    <span>City</span>
+                </label>
+                <label class="thirds">
+                    <select name="individual-mailing-state" required>
+                        <option value="">Select State</option>
+                        <!-- #include file="inc_form-state-list.aspx" -->
+                    </select>
+                    <span>State</span>
+                </label>
+                <label class="thirds">
+                    <input class="zip" type="text" name="individual-mailing-zip-code" required>
+                    <span>Zip Code</span>
+                </label>
+            </div>
+            <label class="half">
+                <input type="tel" name="individual-home-phone" required>
+                <span>Home Phone Number</span>
+            </label>
+            <label class="half">
+                <input type="tel" name="individual-work-phone">
+                <span>Work Phone Number</span>
+            </label>
+            <label class="half">
+                <input type="tel" name="individual-cell-phone">
+                <span>Cell Phone Number</span>
+            </label>
+            <label class="half">
+                <input type="tel" name="individual-fax">
+                <span>Fax Number</span>
+            </label>
+            <label>
+                <input type="email" name="individual-email-address" required>
+                <span>E-mail Address</span>
+            </label>
+            <label data-expander="individual-email-address">
+                <input type="checkbox" name="individual-do-not-email" value="ON">
+                <span>Please do NOT email me important news and updates.</span>
+            </label>
+            <label>
+                <input type="text" name="individual-employer">
+                <span>Employer Name</span>
+            </label>
+        </div>
+    </section>
+    <section>
+        <h2>Products and Services Needed</h2>
+        <fieldset>
+            <legend></legend>
+
+            <label>
+                <input type="checkbox" name="free_checking" value="yes">
+                <span>Free Checking</span>
+            </label>
+            <label>
+                <input type="checkbox" name="young_savers" value="yes">
+                <span>Young Savers</span>
+            </label>
+            <label>
+                <input type="checkbox" name="onyx_package" value="yes">
+                <span>Onyx Package</span>
+            </label>
+            <label>
+                <input type="checkbox" name="silver_checking" value="yes">
+                <span>Silver Checking</span>
+            </label>
+            <label>
+                <input type="checkbox" name="savings" value="yes">
+                <span>Savings</span>
+            </label>
+            <label>
+                <input type="checkbox" name="titanium_package" value="yes">
+                <span>Titanium Package</span>
+            </label>
+            <label>
+                <input type="checkbox" name="interest_checking" value="yes">
+                <span>Interest Checking</span>
+            </label>
+            <label>
+                <input type="checkbox" name="high_yield_savings" value="yes">
+                <span>High Yield Savings</span>
+            </label>
+            <label>
+                <input type="checkbox" name="platinum_interest_checking" value="yes">
+                <span>Platinum Interest Checking</span>
+            </label>
+            <label>
+                <input type="checkbox" name="cod" value="yes">
+                <span>Certificate of Deposit</span>
+            </label>
+            <label>
+                <input type="checkbox" name="money_market_checking" value="yes">
+                <span>Money Market Checking</span>
+            </label>
+            <label>
+                <input type="checkbox" name="ira" value=" yes">
+                <span>Individual Retirement Account</span>
+            </label>
+            <label>
+                <input type="checkbox" name="visa_debit_card_for_accounts" value="yes">
+                <span>Visa Debit Card for Account</span>
+            </label>
+            <label>
+                <input type="checkbox" name="checks_for_accounts" value="yes">
+                <span>Checks for Account</span>
+            </label>
+        </fieldset>
+        <label data-expander="visa_debit_card_for_accounts" class="two-thirds">
+            <input type="text" name="visa_debit_card_for_accounts_numbers" required>
+            <span>Visa Debit Card Account Number</span>
+        </label>
+        <label data-expander="checks_for_accounts" class="two-thirds">
+            <input type="text" name="checks_for_accounts_numbers" required>
+            <span>Checks for Account Numbers</span>
+        </label>
+    </section>
+    <section>
+        <h2>Authorization</h2>
+        <p>By clicking the "I Agree" box below, the applicant(s) request(s) the described services and agrees to the terms and conditions governing the services, including any fees and charges. The applicant(s) agree(s) that all information is accurate and authorizes the financial institution to verify credit and employment history, if necessary, by any means, including preparation of a credit report by a credit agency. Check the "I Agree" box to indicate that you (the applicant) have read the agreement and accept its terms.</p>
+        <p>(The purpose of this questionnaire is to begin the application process. All applications are subject to approval.)</p>
+        <label>
+            <input type="checkbox" name="authorization-agree" value="true" required>
+            <span>Yes, I agree to the Terms and Conditions</span>
+        </label>
+        <button class="Button1" type="submit">Submit</button>
+    </section>
+</form>
+

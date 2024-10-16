@@ -1,0 +1,731 @@
+{
+  "display": "form",
+  "components": [
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "submitClientID",
+        "value": "B71661D6-0CB6-4C9F-B468-2CEE36BE3877"
+      }
+    },
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "submitFormdesc",
+        "value": "Personal Deposit Application"
+      }
+    },
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "submitReDirect",
+        "value": "../Forms/Fiserv/success.aspx"
+      }
+    },
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "secureFormParams",
+        "value": ""
+      }
+    },
+    {
+      "type": "h1",
+      "label": "Personal Deposit Application",
+      "hidden": false
+    },
+    {
+      "type": "h2",
+      "label": "General",
+      "hidden": false
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Account Type",
+            "value": "Select Account Type"
+          },
+          {
+            "label": "Discount Checking",
+            "value": "Discount Checking"
+          },
+          {
+            "label": "Personal Checking",
+            "value": "Personal Checking"
+          },
+          {
+            "label": "Advantage Checking",
+            "value": "Advantage Checking"
+          },
+          {
+            "label": "Interest Checking",
+            "value": "Interest Checking"
+          },
+          {
+            "label": "Senior Checking",
+            "value": "Senior Checking"
+          },
+          {
+            "label": "Money Market",
+            "value": "Money Market"
+          },
+          {
+            "label": "Savings",
+            "value": "Savings"
+          },
+          {
+            "label": "IRA",
+            "value": "IRA"
+          },
+          {
+            "label": "CD",
+            "value": "CD"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "general-type-of-account",
+        "required": ""
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Are you signing individually or with a co-signer?",
+      "values": [
+        {
+          "label": "Individually",
+          "value": "Individual",
+          "attributes": {
+            "type": "radio",
+            "name": "general-joint-account",
+            "value": "Individual",
+            "required": ""
+          }
+        },
+        {
+          "label": "Co-Signer",
+          "value": "Co-Signer",
+          "attributes": {
+            "type": "radio",
+            "name": "general-joint-account",
+            "value": "Co-Signer"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Individually",
+      "attributes": {
+        "type": "radio",
+        "name": "general-joint-account",
+        "value": "Individual",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Co-Signer",
+      "attributes": {
+        "type": "radio",
+        "name": "general-joint-account",
+        "value": "Co-Signer"
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Signer",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "First Name",
+      "attributes": {
+        "type": "text",
+        "name": "signer-first-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Middle Initial",
+      "attributes": {
+        "type": "text",
+        "name": "signer-middle-initial"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Last Name",
+      "attributes": {
+        "type": "text",
+        "name": "signer-last-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Suffix",
+            "value": "selectsuffix"
+          },
+          {
+            "label": "I",
+            "value": "I"
+          },
+          {
+            "label": "II",
+            "value": "II"
+          },
+          {
+            "label": "III",
+            "value": "III"
+          },
+          {
+            "label": "IV",
+            "value": "IV"
+          },
+          {
+            "label": "Jr.",
+            "value": "Jr."
+          },
+          {
+            "label": "Sr.",
+            "value": "Sr."
+          }
+        ]
+      },
+      "attributes": {
+        "name": "signer-suffix"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Social Security Number",
+      "attributes": {
+        "class": "ssn",
+        "type": "text",
+        "name": "signer-social-security-number",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Birth Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "signer-birth-date",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mother's Maiden Name",
+      "attributes": {
+        "type": "text",
+        "name": "signer-mothers-maiden-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Driver's License Number",
+      "attributes": {
+        "type": "text",
+        "name": "signer-driver-license",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State Issued",
+            "value": "selectstateissued"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "signer-driver-license-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Date of Expiration",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "signer-driver-license-expiration",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Street Address",
+      "attributes": {
+        "type": "text",
+        "name": "signer-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "signer-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "signer-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "signer-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mailing address is different than street address.",
+      "attributes": {
+        "type": "checkbox",
+        "name": "signer-mailing-not-street-address",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mailing Address",
+      "attributes": {
+        "type": "text",
+        "name": "signer-mailing-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "signer-mailing-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "signer-mailing-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "signer-mailing-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Home Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "signer-home-phone",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Work Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "signer-work-phone"
+      }
+    },
+    {
+      "type": "input",
+      "label": "E-mail Address",
+      "attributes": {
+        "type": "email",
+        "name": "signer-email-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Please do NOT email me important news and updates.",
+      "attributes": {
+        "type": "checkbox",
+        "name": "signer-do-not-email",
+        "value": "ON"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Occupation",
+      "attributes": {
+        "type": "text",
+        "name": "signer-occupation",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Employer Name",
+      "attributes": {
+        "type": "text",
+        "name": "signer-employer",
+        "required": ""
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Signer",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "First Name",
+      "attributes": {
+        "type": "text",
+        "name": "co-signer-first-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Middle Initial",
+      "attributes": {
+        "type": "text",
+        "name": "co-signer-middle-initial"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Last Name",
+      "attributes": {
+        "type": "text",
+        "name": "co-signer-last-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Suffix",
+            "value": "selectsuffix"
+          },
+          {
+            "label": "I",
+            "value": "I"
+          },
+          {
+            "label": "II",
+            "value": "II"
+          },
+          {
+            "label": "III",
+            "value": "III"
+          },
+          {
+            "label": "IV",
+            "value": "IV"
+          },
+          {
+            "label": "Jr.",
+            "value": "Jr."
+          },
+          {
+            "label": "Sr.",
+            "value": "Sr."
+          }
+        ]
+      },
+      "attributes": {
+        "name": "co-signer-suffix"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Social Security Number",
+      "attributes": {
+        "class": "ssn",
+        "type": "text",
+        "name": "co-signer-social-security-number",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Birth Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "co-signer-birth-date",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mother's Maiden Name",
+      "attributes": {
+        "type": "text",
+        "name": "co-signer-mothers-maiden-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Driver's License Number",
+      "attributes": {
+        "type": "text",
+        "name": "co-signer-driver-license",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State Issued",
+            "value": "selectstateissued"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "co-signer-driver-license-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Date of Expiration",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "co-signer-driver-license-expiration",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Street Address",
+      "attributes": {
+        "type": "text",
+        "name": "co-signer-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "co-signer-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "co-signer-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "co-signer-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mailing address is different than street address.",
+      "attributes": {
+        "type": "checkbox",
+        "name": "co-signer-mailing-not-street-address",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mailing Address",
+      "attributes": {
+        "type": "text",
+        "name": "co-signer-mailing-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "co-signer-mailing-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "co-signer-mailing-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "co-signer-mailing-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Home Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "co-signer-home-phone",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Work Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "co-signer-work-phone"
+      }
+    },
+    {
+      "type": "input",
+      "label": "E-mail Address",
+      "attributes": {
+        "type": "email",
+        "name": "co-signer-email-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Please do NOT email me important news and updates.",
+      "attributes": {
+        "type": "checkbox",
+        "name": "co-signer-do-not-email",
+        "value": "ON"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Occupation",
+      "attributes": {
+        "type": "text",
+        "name": "co-signer-occupation",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Employer Name",
+      "attributes": {
+        "type": "text",
+        "name": "co-signer-employer",
+        "required": ""
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Authorization",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "By clicking the \"I Agree\" box below, the applicant(s) request(s) the described services and agrees to the terms and conditions governing the services, including any fees and charges. The applicant(s) agree(s) that all information is accurate and authorizes the financial institution to verify credit and employment history, if necessary, by any means, including preparation of a credit report by a credit agency. Check the \"I Agree\" box to indicate that you (the applicant) have read the agreement and accept its terms.",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Yes, I agree to the Terms and Conditions",
+      "attributes": {
+        "type": "checkbox",
+        "name": "authorization-agree",
+        "value": "true",
+        "required": ""
+      }
+    }
+  ]
+}

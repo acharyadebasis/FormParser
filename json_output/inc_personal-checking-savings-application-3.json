@@ -1,0 +1,516 @@
+{
+  "display": "form",
+  "components": [
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "submitClientID",
+        "value": "B71661D6-0CB6-4C9F-B468-2CEE36BE3877"
+      }
+    },
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "submitFormdesc",
+        "value": "Personal Account Application"
+      }
+    },
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "submitReDirect",
+        "value": "../Forms/Fiserv/success.aspx"
+      }
+    },
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "secureFormParams",
+        "value": ""
+      }
+    },
+    {
+      "type": "h1",
+      "label": "Personal Account Application",
+      "hidden": false
+    },
+    {
+      "type": "h2",
+      "label": "Individual Information",
+      "hidden": false
+    },
+    {
+      "type": "h3",
+      "label": "Individual",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "First Name",
+      "attributes": {
+        "type": "text",
+        "name": "individual-first-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Middle Initial",
+      "attributes": {
+        "type": "text",
+        "name": "individual-middle-initial"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Last Name",
+      "attributes": {
+        "type": "text",
+        "name": "individual-last-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Suffix",
+            "value": "selectsuffix"
+          },
+          {
+            "label": "I",
+            "value": "I"
+          },
+          {
+            "label": "II",
+            "value": "II"
+          },
+          {
+            "label": "III",
+            "value": "III"
+          },
+          {
+            "label": "IV",
+            "value": "IV"
+          },
+          {
+            "label": "Jr.",
+            "value": "Jr."
+          },
+          {
+            "label": "Sr.",
+            "value": "Sr."
+          }
+        ]
+      },
+      "attributes": {
+        "name": "individual-suffix"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Social Security Number",
+      "attributes": {
+        "class": "ssn",
+        "type": "text",
+        "name": "individual-social-security-number",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Birth Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "individual-birth-date",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mother's Maiden Name",
+      "attributes": {
+        "type": "text",
+        "name": "individual-mothers-maiden-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "ID Type/Number",
+      "attributes": {
+        "type": "text",
+        "name": "individual-id",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State Issued",
+            "value": "selectstateissued"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "individual-driver-license-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Date of Expiration",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "individual-driver-license-expiration",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Street Address",
+      "attributes": {
+        "type": "text",
+        "name": "individual-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "individual-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "individual-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "individual-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mailing address is different than street address.",
+      "attributes": {
+        "type": "checkbox",
+        "name": "individual-mailing-not-street-address",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mailing Address",
+      "attributes": {
+        "type": "text",
+        "name": "individual-mailing-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "individual-mailing-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "individual-mailing-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "individual-mailing-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Home Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "individual-home-phone",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Work Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "individual-work-phone"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Cell Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "individual-cell-phone"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Fax Number",
+      "attributes": {
+        "type": "tel",
+        "name": "individual-fax"
+      }
+    },
+    {
+      "type": "input",
+      "label": "E-mail Address",
+      "attributes": {
+        "type": "email",
+        "name": "individual-email-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Please do NOT email me important news and updates.",
+      "attributes": {
+        "type": "checkbox",
+        "name": "individual-do-not-email",
+        "value": "ON"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Employer Name",
+      "attributes": {
+        "type": "text",
+        "name": "individual-employer"
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Products and Services Needed",
+      "hidden": false
+    },
+    {
+      "type": "radio",
+      "label": "",
+      "values": []
+    },
+    {
+      "type": "input",
+      "label": "Free Checking",
+      "attributes": {
+        "type": "checkbox",
+        "name": "free_checking",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Young Savers",
+      "attributes": {
+        "type": "checkbox",
+        "name": "young_savers",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Onyx Package",
+      "attributes": {
+        "type": "checkbox",
+        "name": "onyx_package",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Silver Checking",
+      "attributes": {
+        "type": "checkbox",
+        "name": "silver_checking",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Savings",
+      "attributes": {
+        "type": "checkbox",
+        "name": "savings",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Titanium Package",
+      "attributes": {
+        "type": "checkbox",
+        "name": "titanium_package",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Interest Checking",
+      "attributes": {
+        "type": "checkbox",
+        "name": "interest_checking",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "High Yield Savings",
+      "attributes": {
+        "type": "checkbox",
+        "name": "high_yield_savings",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Platinum Interest Checking",
+      "attributes": {
+        "type": "checkbox",
+        "name": "platinum_interest_checking",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Certificate of Deposit",
+      "attributes": {
+        "type": "checkbox",
+        "name": "cod",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Money Market Checking",
+      "attributes": {
+        "type": "checkbox",
+        "name": "money_market_checking",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Individual Retirement Account",
+      "attributes": {
+        "type": "checkbox",
+        "name": "ira",
+        "value": " yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Visa Debit Card for Account",
+      "attributes": {
+        "type": "checkbox",
+        "name": "visa_debit_card_for_accounts",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Checks for Account",
+      "attributes": {
+        "type": "checkbox",
+        "name": "checks_for_accounts",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Visa Debit Card Account Number",
+      "attributes": {
+        "type": "text",
+        "name": "visa_debit_card_for_accounts_numbers",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Checks for Account Numbers",
+      "attributes": {
+        "type": "text",
+        "name": "checks_for_accounts_numbers",
+        "required": ""
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Authorization",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "By clicking the \"I Agree\" box below, the applicant(s) request(s) the described services and agrees to the terms and conditions governing the services, including any fees and charges. The applicant(s) agree(s) that all information is accurate and authorizes the financial institution to verify credit and employment history, if necessary, by any means, including preparation of a credit report by a credit agency. Check the \"I Agree\" box to indicate that you (the applicant) have read the agreement and accept its terms.",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "(The purpose of this questionnaire is to begin the application process. All applications are subject to approval.)",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Yes, I agree to the Terms and Conditions",
+      "attributes": {
+        "type": "checkbox",
+        "name": "authorization-agree",
+        "value": "true",
+        "required": ""
+      }
+    }
+  ]
+}

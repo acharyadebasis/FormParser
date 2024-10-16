@@ -1,0 +1,125 @@
+﻿<form class="fiserv-form" id="the-form" name="the-form" method="post" action="https://whstage1.secureinternetbank.com/secureforms/forms/fiserv/blank">
+    <header>
+        <input type="hidden" name="submitClientID" value="B71661D6-0CB6-4C9F-B468-2CEE36BE3877">
+        <input type="hidden" name="submitFormdesc" value="ATM/Debit Card Application">
+        <input type="hidden" name="submitReDirect" value="../forms/Fiserv/success.aspx">
+        <input type="hidden" name="secureFormParams" value="">
+        <h1>Apply for an ATM or Visa Debit Card</h1>
+        <p>In order to apply for a card for your account, please complete the form below. If your card has been lost or stolen, or if you have any questions about completing the application, please call our service center at (xxx) xxx-xxxx.</p>
+        <h2>General</h2>
+        <label>
+            <select name="card-type" required>
+                <option value="">Select Card Type</option>
+                <option>ATM Card</option>
+                <option>Visa Check / Debit Card</option>
+            </select>
+            <span>Card Type</span>
+        </label>
+    </header>
+    <section>
+        <h2>Applicant</h2>
+        <label class="two-thirds">
+            <input type="text" name="applicant-first-name" required>
+            <span>First Name</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="applicant-middle-initial">
+            <span>Middle Initial</span>
+        </label>
+        <label class="two-thirds">
+            <input type="text" name="applicant-last-name" required>
+            <span>Last Name</span>
+        </label>
+        <label class="thirds">
+            <select name="applicant-suffix">
+                <option value="">Select Suffix</option>
+                <option>I</option>
+                <option>II</option>
+                <option>III</option>
+                <option>IV</option>
+                <option>Jr.</option>
+                <option>Sr.</option>
+            </select>
+            <span>Suffix</span>
+        </label>
+        <label class="thirds">
+            <input class="ssn" type="text" name="applicant-social-security-number" required>
+            <span>Social Security Number</span>
+        </label>
+        <label class="thirds">
+            <input class="date" type="text" name="applicant-birth-date" required>
+            <span>Birth Date</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="applicant-mothers-maiden-name" required>
+            <span>Mother's Maiden Name</span>
+        </label>
+        <label>
+            <input type="text" name="applicant-address" required>
+            <span>Mailing Address</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="applicant-city" required>
+            <span>City</span>
+        </label>
+        <label class="thirds">
+            <select name="applicant-state" required>
+                <option value="">Select State</option>
+                <!-- #include file="inc_form-state-list.aspx" -->
+            </select>
+            <span>State</span>
+        </label>
+        <label class="thirds">
+            <input class="zip" type="text" name="applicant-zip-code" required>
+            <span>Zip Code</span>
+        </label>
+        <label>
+            <input type="tel" name="applicant-home-phone" required>
+            <span>Home Phone Number</span>
+        </label>
+        <label>
+            <input type="tel" name="applicant-daytime-phone">
+            <span>Daytime Phone Number</span>
+        </label>
+        <label>
+            <input type="email" name="applicant-email-address" required>
+            <span>E-mail Address</span>
+        </label>
+        <label data-expander="applicant-email-address">
+            <input type="checkbox" name="applicant-do-not-email" value="true">
+            <span>Please do NOT email me important news and updates.</span>
+        </label>
+        <fieldset>
+            <legend>How would you prefer to be contacted?</legend>
+            <label>
+                <input type="radio" name="applicant-contact-preference" value="Home Phone" required>
+                <span>Home Phone</span>
+            </label>
+            <label>
+                <input type="radio" name="applicant-contact-preference" value="Daytime Phone">
+                <span>Daytime Phone</span>
+            </label>
+            <label>
+                <input type="radio" name="applicant-contact-preference" value="Email">
+                <span>Email</span>
+            </label>
+            <label>
+                <input type="radio" name="applicant-contact-preference" value="Other">
+                <span>Other</span>
+            </label>
+        </fieldset>
+        <label data-expander="applicant-contact-preference-3">
+            <input type="text" name="applicant-contact-preference-other-text" required>
+            <span>Other Preference</span>
+        </label>
+    </section>
+    <section>
+        <h2>Authorization</h2>
+        <p>By clicking the "I Accept" box below, the applicant(s) request(s) the described services and agrees to the terms and conditions governing the services, including any fees and charges. The applicant(s) agree(s) that all information is accurate and authorizes the financial institution to verify credit and employment history, if necessary, by any means, including preparation of a credit report by a credit agency. Check the "I Accept" box to indicate that you (the applicant) have read the agreement and accept its terms.</p>
+        <label>
+            <input type="checkbox" name="authorization-agree" value="true" required>
+            <span>Yes, I agree to the Terms and Conditions</span>
+        </label>
+        <button class="Button1" type="submit">Submit</button>
+    </section>
+</form>

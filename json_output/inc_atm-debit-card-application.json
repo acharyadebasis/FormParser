@@ -1,0 +1,363 @@
+{
+  "display": "form",
+  "components": [
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "submitClientID",
+        "value": "B71661D6-0CB6-4C9F-B468-2CEE36BE3877"
+      }
+    },
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "submitFormdesc",
+        "value": "ATM/Debit Card Application"
+      }
+    },
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "submitReDirect",
+        "value": "../forms/Fiserv/success.aspx"
+      }
+    },
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "secureFormParams",
+        "value": ""
+      }
+    },
+    {
+      "type": "h1",
+      "label": "Apply for an ATM or Visa Debit Card",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "In order to apply for a card for your account, please complete the form below. If your card has been lost or stolen, or if you have any questions about completing the application, please call our service center at (xxx) xxx-xxxx.",
+      "hidden": false
+    },
+    {
+      "type": "h2",
+      "label": "General",
+      "hidden": false
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Card Type",
+            "value": "selectcardtype"
+          },
+          {
+            "label": "ATM Card",
+            "value": "ATM Card"
+          },
+          {
+            "label": "Visa Check / Debit Card",
+            "value": "Visa Check / Debit Card"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "card-type",
+        "required": ""
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Applicant",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "First Name",
+      "attributes": {
+        "type": "text",
+        "name": "applicant-first-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Middle Initial",
+      "attributes": {
+        "type": "text",
+        "name": "applicant-middle-initial"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Last Name",
+      "attributes": {
+        "type": "text",
+        "name": "applicant-last-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Suffix",
+            "value": "selectsuffix"
+          },
+          {
+            "label": "I",
+            "value": "I"
+          },
+          {
+            "label": "II",
+            "value": "II"
+          },
+          {
+            "label": "III",
+            "value": "III"
+          },
+          {
+            "label": "IV",
+            "value": "IV"
+          },
+          {
+            "label": "Jr.",
+            "value": "Jr."
+          },
+          {
+            "label": "Sr.",
+            "value": "Sr."
+          }
+        ]
+      },
+      "attributes": {
+        "name": "applicant-suffix"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Social Security Number",
+      "attributes": {
+        "class": "ssn",
+        "type": "text",
+        "name": "applicant-social-security-number",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Birth Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "applicant-birth-date",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mother's Maiden Name",
+      "attributes": {
+        "type": "text",
+        "name": "applicant-mothers-maiden-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mailing Address",
+      "attributes": {
+        "type": "text",
+        "name": "applicant-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "applicant-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "applicant-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "applicant-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Home Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "applicant-home-phone",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Daytime Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "applicant-daytime-phone"
+      }
+    },
+    {
+      "type": "input",
+      "label": "E-mail Address",
+      "attributes": {
+        "type": "email",
+        "name": "applicant-email-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Please do NOT email me important news and updates.",
+      "attributes": {
+        "type": "checkbox",
+        "name": "applicant-do-not-email",
+        "value": "true"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "How would you prefer to be contacted?",
+      "values": [
+        {
+          "label": "Home Phone",
+          "value": "Home Phone",
+          "attributes": {
+            "type": "radio",
+            "name": "applicant-contact-preference",
+            "value": "Home Phone",
+            "required": ""
+          }
+        },
+        {
+          "label": "Daytime Phone",
+          "value": "Daytime Phone",
+          "attributes": {
+            "type": "radio",
+            "name": "applicant-contact-preference",
+            "value": "Daytime Phone"
+          }
+        },
+        {
+          "label": "Email",
+          "value": "Email",
+          "attributes": {
+            "type": "radio",
+            "name": "applicant-contact-preference",
+            "value": "Email"
+          }
+        },
+        {
+          "label": "Other",
+          "value": "Other",
+          "attributes": {
+            "type": "radio",
+            "name": "applicant-contact-preference",
+            "value": "Other"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Home Phone",
+      "attributes": {
+        "type": "radio",
+        "name": "applicant-contact-preference",
+        "value": "Home Phone",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Daytime Phone",
+      "attributes": {
+        "type": "radio",
+        "name": "applicant-contact-preference",
+        "value": "Daytime Phone"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Email",
+      "attributes": {
+        "type": "radio",
+        "name": "applicant-contact-preference",
+        "value": "Email"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Other",
+      "attributes": {
+        "type": "radio",
+        "name": "applicant-contact-preference",
+        "value": "Other"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Other Preference",
+      "attributes": {
+        "type": "text",
+        "name": "applicant-contact-preference-other-text",
+        "required": ""
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Authorization",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "By clicking the \"I Accept\" box below, the applicant(s) request(s) the described services and agrees to the terms and conditions governing the services, including any fees and charges. The applicant(s) agree(s) that all information is accurate and authorizes the financial institution to verify credit and employment history, if necessary, by any means, including preparation of a credit report by a credit agency. Check the \"I Accept\" box to indicate that you (the applicant) have read the agreement and accept its terms.",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Yes, I agree to the Terms and Conditions",
+      "attributes": {
+        "type": "checkbox",
+        "name": "authorization-agree",
+        "value": "true",
+        "required": ""
+      }
+    }
+  ]
+}

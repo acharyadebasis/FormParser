@@ -1,0 +1,205 @@
+﻿<form class="fiserv-form" id="the-form" name="the-form" method="post" action="https://whstage1.secureinternetbank.com/secureforms/forms/fiserv/blank">
+
+    <header>
+        <input type="hidden" name="submitClientID" value="B71661D6-0CB6-4C9F-B468-2CEE36BE3877">
+        <input type="hidden" name="submitFormdesc" value="E-Statements Enrollment">
+        <input type="hidden" name="submitReDirect" value="../Forms/Fiserv/success.aspx">
+        <input type="hidden" name="secureFormParams" value="">
+        <h1>eStatement Signup</h1>
+        <p>Please complete the following information to sign up for FirstLink, FirstPay and/or eStatements. We will contact you with access information and passwords normally within two business days.</p>
+        <p>Passwords are unique to each user accessing FirstLink. For joint and multiple signer accounts, each signer is assigned a unique access ID and Password and is responsible for the confidentiality of their individual access ID and password. Access ID's and passwords must never be compromised or shared with any other person or signer on an account.</p>
+
+    </header>
+    <section>
+        <h2>Applicant</h2>
+        <label class="two-thirds">
+            <input type="text" name="applicant-first-name" required>
+            <span>First Name</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="applicant-middle-initial">
+            <span>Middle Initial</span>
+        </label>
+        <label class="two-thirds">
+            <input type="text" name="applicant-last-name" required>
+            <span>Last Name</span>
+        </label>
+        <label class="thirds">
+            <select name="applicant-suffix">
+                <option value="">Select Suffix</option>
+                <option>I</option>
+                <option>II</option>
+                <option>III</option>
+                <option>IV</option>
+                <option>Jr.</option>
+                <option>Sr.</option>
+            </select>
+            <span>Suffix</span>
+        </label>
+        <label class="thirds">
+            <input class="ssn" type="text" name="applicant-social-security-number" required>
+            <span>Social Security Number</span>
+        </label>
+        <label class="thirds">
+            <input class="date" type="text" name="applicant-birth-date" required>
+            <span>Birth Date</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="applicant-mothers-maiden-name" required>
+            <span>Mother's Maiden Name</span>
+        </label>
+        <label>
+            <input type="text" name="applicant-address" required>
+            <span>Mailing Address</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="applicant-city" required>
+            <span>City</span>
+        </label>
+        <label class="thirds">
+            <select name="applicant-state" required>
+                <option value="">Select State</option>
+                <!-- #include file="inc_form-state-list.aspx" -->
+            </select>
+            <span>State</span>
+        </label>
+        <label class="thirds">
+            <input class="zip" type="text" name="applicant-zip-code" required>
+            <span>Zip Code</span>
+        </label>
+        <label class="half">
+            <input type="tel" name="applicant-home-phone" required>
+            <span>Home Phone Number</span>
+        </label>
+        <label class="half">
+            <input type="tel" name="applicant-daytime-phone">
+            <span>Daytime Phone Number</span>
+        </label>
+        <label>
+            <input type="email" name="applicant-email-address" required>
+            <span>E-mail Address</span>
+        </label>
+        <label>
+            <input data-verify="applicant-email-address" type="email" name="applicant-confirm-email-address" required>
+            <span>Confirm E-mail Address</span>
+        </label>
+        <label data-expander="applicant-confirm-email-address">
+            <input type="checkbox" name="applicant-do-not-email" value="ON">
+            <span>Please do NOT email me important news and updates.</span>
+        </label>
+        <fieldset>
+            <legend>How would you prefer to be contacted?</legend>
+            <label>
+                <input type="radio" name="applicant-contact-preference" value="Home Phone" required>
+                <span>Home Phone</span>
+            </label>
+            <label>
+                <input type="radio" name="applicant-contact-preference" value="Daytime Phone">
+                <span>Daytime Phone</span>
+            </label>
+            <label>
+                <input type="radio" name="applicant-contact-preference" value="Email">
+                <span>Email</span>
+            </label>
+            <label>
+                <input type="radio" name="applicant-contact-preference" value="Other">
+                <span>Other</span>
+            </label>
+        </fieldset>
+        <label data-expander="applicant-contact-preference-3">
+            <input type="text" name="applicant-contact-preference-other-text" required>
+            <span>Other Preference</span>
+        </label>
+        <h3>Choose three possible usernames</h3>
+        <p>Your user code must be between 6 and 17 characters. We recommend you choose some combination of the characters of your name. For example, John F. Smith might choose jfsmith, jfsmith1 or jfsmith2. The user code must be lower case and passwords are case sensitive. Please note that if you do not create a user code one will be assigned to you.</p>
+        <label class="thirds">
+            <input type="text" name="account-first-choice-user-code" required>
+            <span>1st Choice</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="account-second-choice-user-code" required>
+            <span>2nd Choice</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="account-third-choice-user-code" required>
+            <span>3rd Choice</span>
+        </label>
+    </section>
+    <section>
+        <h2>Account Information</h2>
+        <label>
+            <input type="number" name="account-primary-number" required>
+            <span>Primary Account Number</span>
+        </label>
+        <label class="half">
+            <input class="currency" type="text" name="account-amount-last-deposit" required>
+            <span>Amount of Last Deposit</span>
+        </label>
+        <label class="half">
+            <input class="date" type="text" name="account-date-last-deposit" required>
+            <span>Date of Last Deposit</span>
+        </label>
+        <fieldset>
+            <legend>Which services would you like to enroll in?</legend>
+            <label>
+                <input type="checkbox" name="account-online-banking" value="yes">
+                <span>FirstLink Online Banking</span>
+            </label>
+            <label>
+                <input type="checkbox" name="account-online-billPay" value="yes">
+                <span>FirstPay Online Bill Payment</span>
+            </label>
+            <label>
+                <input type="checkbox" name="account-estatements" value="yes">
+                <span>eStatements</span>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Which accounts will you allow estatements to access?</legend>
+            <label>
+                <input type="radio" name="account-estatement-account-access" value="all" required>
+                <span>Allow access to all accounts to which I have ownership.</span>
+            </label>
+            <label>
+                <input type="radio" name="account-estatement-account-access" value="listed">
+                <span>Allow access to the accounts listed below.</span>
+            </label>
+        </fieldset>
+        <div data-duplicate="9">
+            <h3 class="iterate">Account</h3>
+            <label class="two-thirds">
+                <input type="number" name="accounts-additional-number">
+                <span>Account Number</span>
+            </label>
+            <label class="thirds">
+                <select name="accounts-additional-type">
+                    <option value="">Select Account Type</option>
+                    <option>Checking</option>
+                    <option>Savings</option>
+                    <option>Money Market</option>
+                </select>
+                <span>Select Account Type</span>
+            </label>
+        </div>
+    </section>
+    <section>
+        <h2>eStatements</h2>
+        <p>In order to complete the enrollment, you must view the sample eStatement to ensure you'll be able to view your eStatement.</p>
+        <p>Click on the sample eStatement link below and find the authentication code necessary to complete this enrollment form. The authentication code is located at the top of the sample eStatement.</p>
+        <a href="estatement-sample.pdf" target="_blank">eStatements Sample</a>
+        <label>
+            <input type="text" name="authentication-code" pattern="f153rV" required>
+            <span>Enter the case sensitive authentication code (found in the sample eStatement)</span>
+        </label>
+    </section>
+    <section>
+        <h2>Authorization</h2>
+        <p>By clicking the "I Agree" box below, the applicant(s) request(s) the described services and agrees to the terms and conditions governing the services, including any fees and charges. The applicant(s) agree(s) that all information is accurate. Check the "I Agree" box to indicate that you (the applicant) have read the agreement and accept its terms.</p>
+        <label>
+            <input type="checkbox" name="authorization-agree" value="true" required>
+            <span>Yes, I agree to the Terms and Conditions</span>
+        </label>
+        <button class="Button1" type="submit">Submit</button>
+    </section>
+</form>
+

@@ -1,0 +1,4212 @@
+{
+  "display": "form",
+  "components": [
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "submitClientID",
+        "value": "B71661D6-0CB6-4C9F-B468-2CEE36BE3877"
+      }
+    },
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "submitFormdesc",
+        "value": "Mortgage Loan Application"
+      }
+    },
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "submitReDirect",
+        "value": "../Forms/Fiserv/success.aspx"
+      }
+    },
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "secureFormParams",
+        "value": ""
+      }
+    },
+    {
+      "type": "h1",
+      "label": "Mortgage Loan Application",
+      "hidden": false
+    },
+    {
+      "type": "h2",
+      "label": "Important Information About Procedures For Opening a New Account",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "To help the government fight the funding of terrorism and money laundering activities, Federal law requires all financial institutions to obtain, verify and record information that identifies each person who opens an account.",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "When you open an account, we will ask for your name, address, date of birth and other information that will allow us to identify you. We may also ask to see your driver's license or other identifying documents and use third party identifiers such as chex systems and/or credit bureau reports.",
+      "hidden": false
+    },
+    {
+      "type": "h2",
+      "label": "Loan Information",
+      "hidden": false
+    },
+    {
+      "type": "radio",
+      "label": "Are you applying for joint credit?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "loan-applying-joint-credit",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "loan-applying-joint-credit",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "loan-applying-joint-credit",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "loan-applying-joint-credit",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "What type of mortgage are you applying for?",
+      "values": [
+        {
+          "label": "Conventional",
+          "value": "conventional",
+          "attributes": {
+            "type": "radio",
+            "name": "loan-mortgage-applied-for",
+            "value": "conventional",
+            "required": ""
+          }
+        },
+        {
+          "label": "USDA/Rural Housing Service",
+          "value": "usda",
+          "attributes": {
+            "type": "radio",
+            "name": "loan-mortgage-applied-for",
+            "value": "usda"
+          }
+        },
+        {
+          "label": "Other",
+          "value": "other",
+          "attributes": {
+            "type": "radio",
+            "name": "loan-mortgage-applied-for",
+            "value": "other"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Conventional",
+      "attributes": {
+        "type": "radio",
+        "name": "loan-mortgage-applied-for",
+        "value": "conventional",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "USDA/Rural Housing Service",
+      "attributes": {
+        "type": "radio",
+        "name": "loan-mortgage-applied-for",
+        "value": "usda"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Other",
+      "attributes": {
+        "type": "radio",
+        "name": "loan-mortgage-applied-for",
+        "value": "other"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Explain",
+      "attributes": {
+        "type": "text",
+        "name": "loan-mortgage-applied-for-other-explain",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Loan Amount",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "loan-amount",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Purchase Price",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "loan-purchase-price",
+        "required": ""
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Purpose of Loan",
+      "values": [
+        {
+          "label": "Purchase",
+          "value": "Purchase",
+          "attributes": {
+            "type": "radio",
+            "name": "loan-purpose",
+            "value": "Purchase",
+            "required": ""
+          }
+        },
+        {
+          "label": "Refinance",
+          "value": "Refinance",
+          "attributes": {
+            "type": "radio",
+            "name": "loan-purpose",
+            "value": "Refinance"
+          }
+        },
+        {
+          "label": "Construction",
+          "value": "Construction",
+          "attributes": {
+            "type": "radio",
+            "name": "loan-purpose",
+            "value": "Construction"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Purchase",
+      "attributes": {
+        "type": "radio",
+        "name": "loan-purpose",
+        "value": "Purchase",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Refinance",
+      "attributes": {
+        "type": "radio",
+        "name": "loan-purpose",
+        "value": "Refinance"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Construction",
+      "attributes": {
+        "type": "radio",
+        "name": "loan-purpose",
+        "value": "Construction"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Is this application for pre-qualification?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "attributes": {
+            "type": "radio",
+            "name": "loan-prequalification",
+            "value": "Yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "attributes": {
+            "type": "radio",
+            "name": "loan-prequalification",
+            "value": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "loan-prequalification",
+        "value": "Yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "loan-prequalification",
+        "value": "No"
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Property Information",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Property Address",
+      "attributes": {
+        "type": "text",
+        "name": "property-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "property-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "property-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "property-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Number of Units",
+      "attributes": {
+        "type": "number",
+        "name": "property-number-of-units",
+        "required": ""
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Refinance",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Year Acquired",
+      "attributes": {
+        "type": "text",
+        "name": "property-year-acquired",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Original Cost",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "property-original-cost",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Amount of Existing Liens",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "property-amount-existing-liens",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Purpose of Refinance",
+      "attributes": {
+        "type": "text",
+        "name": "purpose-of-refinance",
+        "required": ""
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Will this be used for improvements?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "attributes": {
+            "type": "radio",
+            "name": "loan-improvements",
+            "value": "Yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "attributes": {
+            "type": "radio",
+            "name": "loan-improvements",
+            "value": "No",
+            "required": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "loan-improvements",
+        "value": "Yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "loan-improvements",
+        "value": "No",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Improvements have already been made.",
+      "attributes": {
+        "type": "checkbox",
+        "name": "loan-improvements-finished",
+        "value": "Yes"
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Borrower Information",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "First Name",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-first-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Middle Initial",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-middle-initial"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Last Name",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-last-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Suffix",
+            "value": "selectsuffix"
+          },
+          {
+            "label": "I",
+            "value": "I"
+          },
+          {
+            "label": "II",
+            "value": "II"
+          },
+          {
+            "label": "III",
+            "value": "III"
+          },
+          {
+            "label": "IV",
+            "value": "IV"
+          },
+          {
+            "label": "Jr.",
+            "value": "Jr."
+          },
+          {
+            "label": "Sr.",
+            "value": "Sr."
+          }
+        ]
+      },
+      "attributes": {
+        "name": "borrower-suffix"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Social Security Number",
+      "attributes": {
+        "class": "ssn",
+        "type": "text",
+        "name": "borrower-social-security-number",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Birth Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "borrower-birth-date",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mother's Maiden Name",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-mothers-maiden-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Home Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "borrower-home-phone",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "E-mail Address",
+      "attributes": {
+        "type": "email",
+        "name": "borrower-email-address"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Please do NOT email me important news and updates.",
+      "attributes": {
+        "type": "checkbox",
+        "name": "borrower-do-not-email",
+        "value": "ON"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Marital Status",
+      "values": [
+        {
+          "label": "Single",
+          "value": "single",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-marital-status",
+            "value": "single",
+            "required": ""
+          }
+        },
+        {
+          "label": "Married",
+          "value": "married",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-marital-status",
+            "value": "married"
+          }
+        },
+        {
+          "label": "Separated",
+          "value": "separated",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-marital-status",
+            "value": "separated"
+          }
+        },
+        {
+          "label": "Divorced",
+          "value": "divorced",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-marital-status",
+            "value": "divorced"
+          }
+        },
+        {
+          "label": "Widowed",
+          "value": "widowed",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-marital-status",
+            "value": "widowed"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Single",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-marital-status",
+        "value": "single",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Married",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-marital-status",
+        "value": "married"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Separated",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-marital-status",
+        "value": "separated"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Divorced",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-marital-status",
+        "value": "divorced"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Widowed",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-marital-status",
+        "value": "widowed"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Number of Dependents (Not Listed by Co-Borrower)",
+      "attributes": {
+        "type": "number",
+        "name": "borrower-number-dependents",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "List Dependents' Ages",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-dependent-ages"
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Housing",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Home Address",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "borrower-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "borrower-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mailing address is different than street address.",
+      "attributes": {
+        "type": "checkbox",
+        "name": "borrower-mailing-not-street-address",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mailing Address",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-mailing-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-mailing-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "borrower-mailing-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "borrower-mailing-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Do you own or rent this property?",
+      "values": [
+        {
+          "label": "Own",
+          "value": "own",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-housing-status",
+            "value": "own",
+            "required": ""
+          }
+        },
+        {
+          "label": "Rent",
+          "value": "rent",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-housing-status",
+            "value": "rent"
+          }
+        },
+        {
+          "label": "Other",
+          "value": "other",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-housing-status",
+            "value": "other"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Own",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-housing-status",
+        "value": "own",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Rent",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-housing-status",
+        "value": "rent"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Other",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-housing-status",
+        "value": "other"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Explain",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-housing-other-describe",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Residency Start Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "borrower-housing-status-date-of-residency",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Monthly Mortgage or Rent Payment",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "borrower-housing-status-monthly-payment",
+        "required": ""
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Have you lived here for two or more years?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-minimum-residency",
+            "value": "Yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-minimum-residency",
+            "value": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-minimum-residency",
+        "value": "Yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-minimum-residency",
+        "value": "No"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Previous Home Address",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-previous-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-previous-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "borrower-previous-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "borrower-previous-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Did you own or rent this property?",
+      "values": [
+        {
+          "label": "Own",
+          "value": "own",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-previous-housing-status",
+            "value": "own",
+            "required": ""
+          }
+        },
+        {
+          "label": "Rent",
+          "value": "rent",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-previous-housing-status",
+            "value": "rent",
+            "required": ""
+          }
+        },
+        {
+          "label": "Other",
+          "value": "other",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-previous-housing-status",
+            "value": "other",
+            "required": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Own",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-previous-housing-status",
+        "value": "own",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Rent",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-previous-housing-status",
+        "value": "rent",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Other",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-previous-housing-status",
+        "value": "other",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Explain",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-previous-housing-other-describe",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Residency Start Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "borrower-previous-housing-status-date-of-residency",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Monthly Mortgage or Rent Payment",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "borrower-previous-housing-status-monthly-payment",
+        "required": ""
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Employment Information",
+      "hidden": false
+    },
+    {
+      "type": "radio",
+      "label": "Is the borrower employed?",
+      "values": [
+        {
+          "label": "Employed",
+          "value": "employed",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-employment-status",
+            "value": "employed",
+            "required": ""
+          }
+        },
+        {
+          "label": "Not Employed",
+          "value": "unemployed",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-employment-status",
+            "value": "unemployed"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Employed",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-employment-status",
+        "value": "employed",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Not Employed",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-employment-status",
+        "value": "unemployed"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Employment Start Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "borrower-employment-start-date",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Position or Title",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-employment-position",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Gross Monthly Income",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "borrower-gross-monthly-income",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Name of Employer",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-employer-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Employer's Address",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-employer-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-employer-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "borrower-employer-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "borrower-employer-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Employer's Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "borrower-employer-phone",
+        "required": ""
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Have you worked here for more than two years? (No if unemployed)",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-employer-less-than-three-years",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "borrower-employer-less-than-three-years",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-employer-less-than-three-years",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "borrower-employer-less-than-three-years",
+        "value": "no"
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Previous Employer",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Employment Start Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "borrower-employment-start-date-1"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Position or Title",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-employment-position-1"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Gross Monthly Income",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "borrower-gross-monthly-income-1"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Name of Employer",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-employer-name-1"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Employer's Address",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-employer-address-1"
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-employer-city-1"
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "borrower-employer-state-1"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "borrower-employer-zip-code-1"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Employer's Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "borrower-employer-phone-1"
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Co-Borrower Information",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "First Name",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-first-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Middle Initial",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-middle-initial"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Last Name",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-last-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Suffix",
+            "value": "selectsuffix"
+          },
+          {
+            "label": "I",
+            "value": "I"
+          },
+          {
+            "label": "II",
+            "value": "II"
+          },
+          {
+            "label": "III",
+            "value": "III"
+          },
+          {
+            "label": "IV",
+            "value": "IV"
+          },
+          {
+            "label": "Jr.",
+            "value": "Jr."
+          },
+          {
+            "label": "Sr.",
+            "value": "Sr."
+          }
+        ]
+      },
+      "attributes": {
+        "name": "co-borrower-suffix"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Social Security Number",
+      "attributes": {
+        "class": "ssn",
+        "type": "text",
+        "name": "co-borrower-social-security-number",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Birth Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "co-borrower-birth-date",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mother's Maiden Name",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-mothers-maiden-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Home Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "co-borrower-home-phone",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "E-mail Address",
+      "attributes": {
+        "type": "email",
+        "name": "co-borrower-email-address"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Please do NOT email me important news and updates.",
+      "attributes": {
+        "type": "checkbox",
+        "name": "co-borrower-do-not-email",
+        "value": "ON"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Marital Status",
+      "values": [
+        {
+          "label": "Single",
+          "value": "single",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-marital-status",
+            "value": "single",
+            "required": ""
+          }
+        },
+        {
+          "label": "Married",
+          "value": "married",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-marital-status",
+            "value": "married"
+          }
+        },
+        {
+          "label": "Separated",
+          "value": "separated",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-marital-status",
+            "value": "separated"
+          }
+        },
+        {
+          "label": "Divorced",
+          "value": "divorced",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-marital-status",
+            "value": "divorced"
+          }
+        },
+        {
+          "label": "Widowed",
+          "value": "widowed",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-marital-status",
+            "value": "widowed"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Single",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-marital-status",
+        "value": "single",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Married",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-marital-status",
+        "value": "married"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Separated",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-marital-status",
+        "value": "separated"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Divorced",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-marital-status",
+        "value": "divorced"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Widowed",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-marital-status",
+        "value": "widowed"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Number of Dependents (Not Listed by Co-Borrower)",
+      "attributes": {
+        "type": "number",
+        "name": "co-borrower-number-dependents",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "List Dependents' Ages",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-dependent-ages"
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Housing",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Home Address",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "co-borrower-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "co-borrower-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mailing address is different than street address.",
+      "attributes": {
+        "type": "checkbox",
+        "name": "co-borrower-mailing-not-street-address",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mailing Address",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-mailing-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-mailing-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "co-borrower-mailing-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "co-borrower-mailing-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Do you own or rent this property?",
+      "values": [
+        {
+          "label": "Own",
+          "value": "own",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-housing-status",
+            "value": "own",
+            "required": ""
+          }
+        },
+        {
+          "label": "Rent",
+          "value": "rent",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-housing-status",
+            "value": "rent"
+          }
+        },
+        {
+          "label": "Other",
+          "value": "other",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-housing-status",
+            "value": "other"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Own",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-housing-status",
+        "value": "own",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Rent",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-housing-status",
+        "value": "rent"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Other",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-housing-status",
+        "value": "other"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Explain",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-housing-other-describe",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Residency Start Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "co-borrower-housing-status-date-of-residency",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Monthly Mortgage or Rent Payment",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "co-borrower-housing-status-monthly-payment",
+        "required": ""
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Have you lived here for two or more years?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-minimum-residency",
+            "value": "Yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "No",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-minimum-residency",
+            "value": "No"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-minimum-residency",
+        "value": "Yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-minimum-residency",
+        "value": "No"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Previous Home Address",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-previous-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-previous-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "co-borrower-previous-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "co-borrower-previous-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Did you own or rent this property?",
+      "values": [
+        {
+          "label": "Own",
+          "value": "own",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-previous-housing-status",
+            "value": "own",
+            "required": ""
+          }
+        },
+        {
+          "label": "Rent",
+          "value": "rent",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-previous-housing-status",
+            "value": "rent",
+            "required": ""
+          }
+        },
+        {
+          "label": "Other",
+          "value": "other",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-previous-housing-status",
+            "value": "other",
+            "required": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Own",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-previous-housing-status",
+        "value": "own",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Rent",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-previous-housing-status",
+        "value": "rent",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Other",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-previous-housing-status",
+        "value": "other",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Explain",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-previous-housing-other-describe",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Residency Start Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "co-borrower-previous-housing-status-date-of-residency",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Monthly Mortgage or Rent Payment",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "co-borrower-previous-housing-status-monthly-payment",
+        "required": ""
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Employment Information",
+      "hidden": false
+    },
+    {
+      "type": "radio",
+      "label": "Is the borrower employed?",
+      "values": [
+        {
+          "label": "Employed",
+          "value": "employed",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-employment-status",
+            "value": "employed",
+            "required": ""
+          }
+        },
+        {
+          "label": "Not Employed",
+          "value": "unemployed",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-employment-status",
+            "value": "unemployed"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Employed",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-employment-status",
+        "value": "employed",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Not Employed",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-employment-status",
+        "value": "unemployed"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Employment Start Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "co-borrower-employment-start-date",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Position or Title",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-employment-position",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Gross Monthly Income",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "co-borrower-gross-monthly-income",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Name of Employer",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-employer-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Employer's Address",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-employer-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-employer-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "co-borrower-employer-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "co-borrower-employer-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Employer's Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "co-borrower-employer-phone",
+        "required": ""
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Have you worked here for more than two years? (No if unemployed)",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-employer-less-than-three-years",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "co-borrower-employer-less-than-three-years",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-employer-less-than-three-years",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "co-borrower-employer-less-than-three-years",
+        "value": "no"
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Previous Employer",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Employment Start Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "co-borrower-employment-start-date-1"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Position or Title",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-employment-position-1"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Gross Monthly Income",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "co-borrower-gross-monthly-income-1"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Name of Employer",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-employer-name-1"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Employer's Address",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-employer-address-1"
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "co-borrower-employer-city-1"
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "co-borrower-employer-state-1"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "co-borrower-employer-zip-code-1"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Employer's Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "co-borrower-employer-phone-1"
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Financial Information",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "Please note: Alimony, child support or separate maintenance income need not be revealed if the Borrower or Co-Borrower does not choose to have it considered for repaying this loan. Also self employed borrowers may be required to provide additional documentation such as tax returns and financial statements. (before taxes)",
+      "hidden": false
+    },
+    {
+      "type": "h3",
+      "label": "Borrower's Gross Monthly Income",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Monthly Salary & Wages",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-income-borrower-gross-monthly",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Other Monthly Income (if any)",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-income-borrower-other"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Income Type",
+      "attributes": {
+        "type": "text",
+        "name": "financial-income-borrower-other-type",
+        "required": ""
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Co-Borrower's Gross Monthly Income",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Monthly Salary & Wages",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-income-coborrower-gross-monthly",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Other Monthly Income (if any)",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-income-coborrower-other"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Income Type",
+      "attributes": {
+        "type": "text",
+        "name": "financial-income-coborrower-other-type",
+        "required": ""
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Current Monthly Housing Expenses",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Rent",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-housing-rent-amount"
+      }
+    },
+    {
+      "type": "input",
+      "label": "First Mortgage",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-housing-first-mortgage"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Second Mortgage",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-housing-second-mortgage"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Hazard Insurance",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-housing-hazard-insurance"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Property Taxes",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-housing-property-taxes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mortgage Insurance",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-housing-mortgage-insurance"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Home Owners Association Dues",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-housing-homeowner-association-dues"
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Checking or Savings",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "Please list all checking and savings accounts.",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Bank Name",
+      "attributes": {
+        "type": "text",
+        "name": "financial-account-bank-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Property Address",
+      "attributes": {
+        "type": "text",
+        "name": "financial-account-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "financial-account-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "financial-account-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "financial-account-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Account Number",
+      "attributes": {
+        "type": "number",
+        "name": "financial-account-number",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Account Balance",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-account-balance",
+        "required": ""
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Stocks & Bonds",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Description",
+      "attributes": {
+        "type": "text",
+        "name": "financial-stocks-bonds-description"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Total Value",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-stocks-bonds-value"
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Life Insurance",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Face Amount",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-life-insurance-face-amount"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Cash Value",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-life-insurance-cash-value"
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Real Estate",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Property Address",
+      "attributes": {
+        "type": "text",
+        "name": "financial-property-address"
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "financial-property-city"
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "financial-property-state"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "financial-property-zip-code"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Estimated Value",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-real-estate-estimated-value"
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Miscellaneous Assets",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Vested Interest in Retirement Plan",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-retirement-vested-interest"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Net Worth of Business Owned",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-business-owned-net-worth"
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Automobiles",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Make",
+      "attributes": {
+        "type": "text",
+        "name": "financial-auto-make"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Model",
+      "attributes": {
+        "type": "text",
+        "name": "financial-auto-model"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Year",
+      "attributes": {
+        "type": "text",
+        "name": "financial-auto-year"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Estimated Value",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-auto-value"
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Other Assets",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Description",
+      "attributes": {
+        "type": "text",
+        "name": "financial-other-asset-description"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Total Value",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-other-asset-value"
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Current Monthly Payments (Liabilities)",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Name of Company",
+      "attributes": {
+        "type": "text",
+        "name": "financial-liabilities-name"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Monthly Payment",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "financial-liabilities-amount"
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Borrower Declarations",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "List any additional names under which credit has previously been received and indicate appropriate creditor name(s) and account number(s)",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Alternate Name",
+      "attributes": {
+        "type": "text",
+        "name": "declarations-names-alternate-name"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Creditor Name",
+      "attributes": {
+        "type": "text",
+        "name": "declarations-names-creditor-name"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Account Number",
+      "attributes": {
+        "type": "number",
+        "name": "declarations-names-account-number"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Are there any outstanding judgments against you?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-outstanding-judgements",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-outstanding-judgements",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-outstanding-judgements",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-outstanding-judgements",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Have you been declared bankrupt within the past 7 years?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-bankrupt",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-bankrupt",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-bankrupt",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-bankrupt",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Have you had property foreclosed upon or given title or deed in lieu thereof in the last 7 years?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-foreclosed-upon",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-foreclosed-upon",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-foreclosed-upon",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-foreclosed-upon",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Are you a party to a lawsuit?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-party-to-lawsuit",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-party-to-lawsuit",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-party-to-lawsuit",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-party-to-lawsuit",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Have you directly or indirectly been obligated on any loan which resulted in foreclosure, transfer or title in lieu of foreclosure, or judgment? (This would include such loans as home mortgage loans, SBA loans, home improvement loans, educational loans, manufactured (mobile) home loans, any mortgage, financial obligation, bond, or loan guarantee. If \"Yes\" provide details, including date, name and address of Lender, FHA or VA case number, if any, and reasons for the action.)",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-obligated-loan-resulted-foreclosure-judgment",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-obligated-loan-resulted-foreclosure-judgment",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-obligated-loan-resulted-foreclosure-judgment",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-obligated-loan-resulted-foreclosure-judgment",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Are you presently delinquent or in default on any Federal debt or any other loan, mortgage, financial obligation, bond, or loan guarantee? If \"Yes\", give details as described in the preceding question.",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-delinquent-default-federal-debt",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-delinquent-default-federal-debt",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-delinquent-default-federal-debt",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-delinquent-default-federal-debt",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Are you obligated to pay alimony, child support, or separate maintenance?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-obligated-alimony-child-support-separate-maintenance",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-obligated-alimony-child-support-separate-maintenance",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-obligated-alimony-child-support-separate-maintenance",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-obligated-alimony-child-support-separate-maintenance",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Is any part of the down payment borrowed?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-down-payment-borrowed",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-down-payment-borrowed",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-down-payment-borrowed",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-down-payment-borrowed",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Are you a co-maker or endorser on a note?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-note-comaker-endorser",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-note-comaker-endorser",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-note-comaker-endorser",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-note-comaker-endorser",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Are you a U.S. citizen?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-us-citizen",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-us-citizen",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-us-citizen",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-us-citizen",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Are you a permanent resident alien?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-permanent-resident-alien",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-permanent-resident-alien",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-permanent-resident-alien",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-permanent-resident-alien",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Do you intend to occupy the property as your primary residence?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-property-borrower-residence",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-property-borrower-residence",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-property-borrower-residence",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-property-borrower-residence",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Have you had an ownership interest in a property in the last three years?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-property-ownership-interest",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "declarations-borrower-property-ownership-interest",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-property-ownership-interest",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "declarations-borrower-property-ownership-interest",
+        "value": "no"
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Property Type",
+            "value": "selectpropertytype"
+          },
+          {
+            "label": "(PR) Principal Residence",
+            "value": "(PR) Principal Residence"
+          },
+          {
+            "label": "(SH) Second Home",
+            "value": "(SH) Second Home"
+          },
+          {
+            "label": "(IP) Investment Property",
+            "value": "(IP) Investment Property"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "declarations-borrower-owned-property-type"
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select How Held",
+            "value": "selecthowheld"
+          },
+          {
+            "label": "(S) Soly",
+            "value": "(S) Soly"
+          },
+          {
+            "label": "(SP) Jointly With Spouse",
+            "value": "(SP) Jointly With Spouse"
+          },
+          {
+            "label": "(O) Jointly With Another Person",
+            "value": "(O) Jointly With Another Person"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "declarations-borrower-owned-property-how-held"
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Co-Borrower Declarations",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "List any additional names under which credit has previously been received and indicate appropriate creditor name(s) and account number(s)",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Alternate Name",
+      "attributes": {
+        "type": "text",
+        "name": "co-declarations-names-alternate-name"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Creditor Name",
+      "attributes": {
+        "type": "text",
+        "name": "co-declarations-names-creditor-name"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Account Number",
+      "attributes": {
+        "type": "number",
+        "name": "co-declarations-names-account-number"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Are there any outstanding judgments against you?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-outstanding-judgements",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-outstanding-judgements",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-outstanding-judgements",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-outstanding-judgements",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Have you been declared bankrupt within the past 7 years?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-bankrupt",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-bankrupt",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-bankrupt",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-bankrupt",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Have you had property foreclosed upon or given title or deed in lieu thereof in the last 7 years?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-foreclosed-upon",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-foreclosed-upon",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-foreclosed-upon",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-foreclosed-upon",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Are you a party to a lawsuit?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-party-to-lawsuit",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-party-to-lawsuit",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-party-to-lawsuit",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-party-to-lawsuit",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Have you directly or indirectly been obligated on any loan which resulted in foreclosure, transfer or title in lieu of foreclosure, or judgment? (This would include such loans as home mortgage loans, SBA loans, home improvement loans, educational loans, manufactured (mobile) home loans, any mortgage, financial obligation, bond, or loan guarantee. If \"Yes\" provide details, including date, name and address of Lender, FHA or VA case number, if any, and reasons for the action.)",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-obligated-loan-resulted-foreclosure-judgment",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-obligated-loan-resulted-foreclosure-judgment",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-obligated-loan-resulted-foreclosure-judgment",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-obligated-loan-resulted-foreclosure-judgment",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Are you presently delinquent or in default on any Federal debt or any other loan, mortgage, financial obligation, bond, or loan guarantee? If \"Yes\", give details as described in the preceding question.",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-delinquent-default-federal-debt",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-delinquent-default-federal-debt",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-delinquent-default-federal-debt",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-delinquent-default-federal-debt",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Are you obligated to pay alimony, child support, or separate maintenance?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-obligated-alimony-child-support-separate-maintenance",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-obligated-alimony-child-support-separate-maintenance",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-obligated-alimony-child-support-separate-maintenance",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-obligated-alimony-child-support-separate-maintenance",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Is any part of the down payment borrowed?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-down-payment-borrowed",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-down-payment-borrowed",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-down-payment-borrowed",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-down-payment-borrowed",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Are you a co-maker or endorser on a note?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-note-comaker-endorser",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-note-comaker-endorser",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-note-comaker-endorser",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-note-comaker-endorser",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Are you a U.S. citizen?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-us-citizen",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-us-citizen",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-us-citizen",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-us-citizen",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Are you a permanent resident alien?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-permanent-resident-alien",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-permanent-resident-alien",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-permanent-resident-alien",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-permanent-resident-alien",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Do you intend to occupy the property as your primary residence?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-property-borrower-residence",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-property-borrower-residence",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-property-borrower-residence",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-property-borrower-residence",
+        "value": "no"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Have you had an ownership interest in a property in the last three years?",
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-property-ownership-interest",
+            "value": "yes",
+            "required": ""
+          }
+        },
+        {
+          "label": "No",
+          "value": "no",
+          "attributes": {
+            "type": "radio",
+            "name": "co-declarations-borrower-property-ownership-interest",
+            "value": "no"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Yes",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-property-ownership-interest",
+        "value": "yes",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "No",
+      "attributes": {
+        "type": "radio",
+        "name": "co-declarations-borrower-property-ownership-interest",
+        "value": "no"
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Property Type",
+            "value": "selectpropertytype"
+          },
+          {
+            "label": "(PR) Principal Residence",
+            "value": "(PR) Principal Residence"
+          },
+          {
+            "label": "(SH) Second Home",
+            "value": "(SH) Second Home"
+          },
+          {
+            "label": "(IP) Investment Property",
+            "value": "(IP) Investment Property"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "co-declarations-borrower-owned-property-type"
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select How Held",
+            "value": "selecthowheld"
+          },
+          {
+            "label": "(S) Soly",
+            "value": "(S) Soly"
+          },
+          {
+            "label": "(SP) Jointly With Spouse",
+            "value": "(SP) Jointly With Spouse"
+          },
+          {
+            "label": "(O) Jointly With Another Person",
+            "value": "(O) Jointly With Another Person"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "co-declarations-borrower-owned-property-how-held"
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Information for Government Monitoring Purposes",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "The following information is requested by the Federal Government for certain types of loans related to a dwelling in order to monitor the lender's compliance with equal credit opportunity, fair housing and home mortgage disclosure laws. You are not required to furnish this information, but are encouraged to do so. The law provides that a lender may discriminate neither on the basis of this information, nor on whether you choose to furnish it. If you furnish the information, please provide both ethnicity and race. For race, you may check more than one designation. If you do not furnish ethnicity, race, or sex, under Federal regulations, this lender is required to note the information on the basis of visual observation or surname. If you do not wish to furnish that information, please check the box below.",
+      "hidden": false
+    },
+    {
+      "type": "h3",
+      "label": "Borrower",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "I would like to participate.",
+      "attributes": {
+        "type": "checkbox",
+        "name": "gov-info-borrower-equal-opportunity-participation",
+        "value": "Yes"
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Ethnicity",
+            "value": "selectethnicity"
+          },
+          {
+            "label": "American Indian Or Alaskan Native",
+            "value": "American Indian Or Alaskan Native"
+          },
+          {
+            "label": "Asian",
+            "value": "Asian"
+          },
+          {
+            "label": "Black or African American",
+            "value": "Black or African American"
+          },
+          {
+            "label": "Caucasian",
+            "value": "Caucasian"
+          },
+          {
+            "label": "Hispanic or Latino",
+            "value": "Hispanic or Latino"
+          },
+          {
+            "label": "Native Hawaiian or Pacific Islander",
+            "value": "Native Hawaiian or Pacific Islander"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "gov-info-borrower-ethnicity",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Sex",
+            "value": "selectsex"
+          },
+          {
+            "label": "Female",
+            "value": "Female"
+          },
+          {
+            "label": "Male",
+            "value": "Male"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "gov-info-borrower-sex",
+        "required": ""
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Co-Borrower",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "I would like to participate.",
+      "attributes": {
+        "type": "checkbox",
+        "name": "gov-info-coborrower-equal-opportunity-participation",
+        "value": "Yes"
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Ethnicity",
+            "value": "selectethnicity"
+          },
+          {
+            "label": "American Indian Or Alaskan Native",
+            "value": "American Indian Or Alaskan Native"
+          },
+          {
+            "label": "Asian",
+            "value": "Asian"
+          },
+          {
+            "label": "Black or African American",
+            "value": "Black or African American"
+          },
+          {
+            "label": "Caucasian",
+            "value": "Caucasian"
+          },
+          {
+            "label": "Hispanic or Latino",
+            "value": "Hispanic or Latino"
+          },
+          {
+            "label": "Native Hawaiian or Pacific Islander",
+            "value": "Native Hawaiian or Pacific Islander"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "gov-info-coborrower-ethnicity",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Sex",
+            "value": "selectsex"
+          },
+          {
+            "label": "Female",
+            "value": "Female"
+          },
+          {
+            "label": "Male",
+            "value": "Male"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "gov-info-coborrower-sex",
+        "required": ""
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Acknowledgement & Agreement",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "Each of the undersigned specifically represents to Lender and to Lender's actual or potential agents, brokers, processors, attorneys, insurers, servicers, successors and assigns and agrees and acknowledges that: (1) the information provided in this application is true and correct as of the date set forth opposite my signature and that any intentional or negligent misrepresentation of this information contained in this application may result in civil liability, including monetary damages, to any person who may suffer any loss due to reliance upon any misrepresentation that I have made on this application, and/or in criminal penalties including, but not limited to, fine or imprisonment or both under the provisions of Title 18, United States Code, Sec. 1001, et seq.; (2) the loan requested pursuant to this application (the \"Loan\") will be secured by a mortgage or deed of trust on the property described in this application; (3) the property will not be used for any illegal or prohibited purpose or use; (4) all statements made in this application are made for the purpose of obtaining a residential mortgage loan; (5) the property will be occupied as indicated in this application; (6) the Lender, its servicers, successors or assigns may retain the original and/or an electronic record of this application, whether or not the Loan is approved; (7) the Lender and its agents, brokers, insurers, servicers, successors and assigns may continuously rely on the information contained in the application, and I am obligated to amend and/or supplement the information provided in this application if any of the material facts that I have represented herein should change prior to closing of the Loan; (8) in the event that my payments on the Loan become delinquent, the Lender, its services, successors or assigns may, in addition to any other rights and remedies that it may have relating to such delinquency, report my name and account information to one or more consumer credit reporting agencies; (9) ownership of the Loan and/or administration of the Loan account may be transferred with such notice as may be required by law; (10) neither Lender nor its agents, brokers, insurers, servicers, successors or assigns has made any representation or warranty, express or implied, to me regarding the property or the condition or value of the property; and (11) my transmission of this application as an \"electronic record\" containing my \"electronic signature,\" as those terms are defined in applicable federal and/or state laws (excluding audio and video recordings), or my facsimile transmission of this application containing a facsimile of my signature, shall be as effective, enforceable and valid as if a paper version of this application were delivered containing my original written signature.",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "Each of the undersigned hereby acknowledges that any owner of the Loan, its servicers, successors and assigns, may verify or reverify any information contained in this application or obtain any information or data relating to the Loan, for any legitimate business purpose through any source, including a source named in this application or a consumer reporting agency.",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "I/We fully understand that it is a Federal crime punishable by fine or imprisonment, or both, to knowingly make any false statements concerning any of the above facts as applicable under the provisions of Title 18, United States Code, Section 1001, et seq.",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "Type your name in the box below to represent your electronic signature.",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Borrower's Signature",
+      "attributes": {
+        "type": "text",
+        "name": "borrower-signature",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "borrower-signature-date",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Co-Borrower's Signature",
+      "attributes": {
+        "type": "text",
+        "name": "coborrower-signature",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "coborrower-signature-date",
+        "required": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,561 @@
+{
+  "display": "form",
+  "components": [
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "submitClientID",
+        "value": "B71661D6-0CB6-4C9F-B468-2CEE36BE3877"
+      }
+    },
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "submitFormdesc",
+        "value": "E-Statements Enrollment"
+      }
+    },
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "submitReDirect",
+        "value": "../Forms/Fiserv/success.aspx"
+      }
+    },
+    {
+      "hidden": true,
+      "attributes": {
+        "type": "hidden",
+        "name": "secureFormParams",
+        "value": ""
+      }
+    },
+    {
+      "type": "h1",
+      "label": "eStatement Signup",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "Please complete the following information to sign up for FirstLink, FirstPay and/or eStatements. We will contact you with access information and passwords normally within two business days.",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "Passwords are unique to each user accessing FirstLink. For joint and multiple signer accounts, each signer is assigned a unique access ID and Password and is responsible for the confidentiality of their individual access ID and password. Access ID's and passwords must never be compromised or shared with any other person or signer on an account.",
+      "hidden": false
+    },
+    {
+      "type": "h2",
+      "label": "Applicant",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "First Name",
+      "attributes": {
+        "type": "text",
+        "name": "applicant-first-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Middle Initial",
+      "attributes": {
+        "type": "text",
+        "name": "applicant-middle-initial"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Last Name",
+      "attributes": {
+        "type": "text",
+        "name": "applicant-last-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Suffix",
+            "value": "selectsuffix"
+          },
+          {
+            "label": "I",
+            "value": "I"
+          },
+          {
+            "label": "II",
+            "value": "II"
+          },
+          {
+            "label": "III",
+            "value": "III"
+          },
+          {
+            "label": "IV",
+            "value": "IV"
+          },
+          {
+            "label": "Jr.",
+            "value": "Jr."
+          },
+          {
+            "label": "Sr.",
+            "value": "Sr."
+          }
+        ]
+      },
+      "attributes": {
+        "name": "applicant-suffix"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Social Security Number",
+      "attributes": {
+        "class": "ssn",
+        "type": "text",
+        "name": "applicant-social-security-number",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Birth Date",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "applicant-birth-date",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mother's Maiden Name",
+      "attributes": {
+        "type": "text",
+        "name": "applicant-mothers-maiden-name",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Mailing Address",
+      "attributes": {
+        "type": "text",
+        "name": "applicant-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "City",
+      "attributes": {
+        "type": "text",
+        "name": "applicant-city",
+        "required": ""
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select State",
+            "value": "selectstate"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "applicant-state",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Zip Code",
+      "attributes": {
+        "class": "zip",
+        "type": "text",
+        "name": "applicant-zip-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Home Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "applicant-home-phone",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Daytime Phone Number",
+      "attributes": {
+        "type": "tel",
+        "name": "applicant-daytime-phone"
+      }
+    },
+    {
+      "type": "input",
+      "label": "E-mail Address",
+      "attributes": {
+        "type": "email",
+        "name": "applicant-email-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Confirm E-mail Address",
+      "attributes": {
+        "data-verify": "applicant-email-address",
+        "type": "email",
+        "name": "applicant-confirm-email-address",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Please do NOT email me important news and updates.",
+      "attributes": {
+        "type": "checkbox",
+        "name": "applicant-do-not-email",
+        "value": "ON"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "How would you prefer to be contacted?",
+      "values": [
+        {
+          "label": "Home Phone",
+          "value": "Home Phone",
+          "attributes": {
+            "type": "radio",
+            "name": "applicant-contact-preference",
+            "value": "Home Phone",
+            "required": ""
+          }
+        },
+        {
+          "label": "Daytime Phone",
+          "value": "Daytime Phone",
+          "attributes": {
+            "type": "radio",
+            "name": "applicant-contact-preference",
+            "value": "Daytime Phone"
+          }
+        },
+        {
+          "label": "Email",
+          "value": "Email",
+          "attributes": {
+            "type": "radio",
+            "name": "applicant-contact-preference",
+            "value": "Email"
+          }
+        },
+        {
+          "label": "Other",
+          "value": "Other",
+          "attributes": {
+            "type": "radio",
+            "name": "applicant-contact-preference",
+            "value": "Other"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Home Phone",
+      "attributes": {
+        "type": "radio",
+        "name": "applicant-contact-preference",
+        "value": "Home Phone",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Daytime Phone",
+      "attributes": {
+        "type": "radio",
+        "name": "applicant-contact-preference",
+        "value": "Daytime Phone"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Email",
+      "attributes": {
+        "type": "radio",
+        "name": "applicant-contact-preference",
+        "value": "Email"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Other",
+      "attributes": {
+        "type": "radio",
+        "name": "applicant-contact-preference",
+        "value": "Other"
+      }
+    },
+    {
+      "type": "input",
+      "label": "Other Preference",
+      "attributes": {
+        "type": "text",
+        "name": "applicant-contact-preference-other-text",
+        "required": ""
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Choose three possible usernames",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "Your user code must be between 6 and 17 characters. We recommend you choose some combination of the characters of your name. For example, John F. Smith might choose jfsmith, jfsmith1 or jfsmith2. The user code must be lower case and passwords are case sensitive. Please note that if you do not create a user code one will be assigned to you.",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "1st Choice",
+      "attributes": {
+        "type": "text",
+        "name": "account-first-choice-user-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "2nd Choice",
+      "attributes": {
+        "type": "text",
+        "name": "account-second-choice-user-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "3rd Choice",
+      "attributes": {
+        "type": "text",
+        "name": "account-third-choice-user-code",
+        "required": ""
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Account Information",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Primary Account Number",
+      "attributes": {
+        "type": "number",
+        "name": "account-primary-number",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Amount of Last Deposit",
+      "attributes": {
+        "class": "currency",
+        "type": "text",
+        "name": "account-amount-last-deposit",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Date of Last Deposit",
+      "attributes": {
+        "class": "date",
+        "type": "text",
+        "name": "account-date-last-deposit",
+        "required": ""
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Which services would you like to enroll in?",
+      "values": []
+    },
+    {
+      "type": "input",
+      "label": "FirstLink Online Banking",
+      "attributes": {
+        "type": "checkbox",
+        "name": "account-online-banking",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "FirstPay Online Bill Payment",
+      "attributes": {
+        "type": "checkbox",
+        "name": "account-online-billPay",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "input",
+      "label": "eStatements",
+      "attributes": {
+        "type": "checkbox",
+        "name": "account-estatements",
+        "value": "yes"
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Which accounts will you allow estatements to access?",
+      "values": [
+        {
+          "label": "Allow access to all accounts to which I have ownership.",
+          "value": "all",
+          "attributes": {
+            "type": "radio",
+            "name": "account-estatement-account-access",
+            "value": "all",
+            "required": ""
+          }
+        },
+        {
+          "label": "Allow access to the accounts listed below.",
+          "value": "listed",
+          "attributes": {
+            "type": "radio",
+            "name": "account-estatement-account-access",
+            "value": "listed"
+          }
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "label": "Allow access to all accounts to which I have ownership.",
+      "attributes": {
+        "type": "radio",
+        "name": "account-estatement-account-access",
+        "value": "all",
+        "required": ""
+      }
+    },
+    {
+      "type": "input",
+      "label": "Allow access to the accounts listed below.",
+      "attributes": {
+        "type": "radio",
+        "name": "account-estatement-account-access",
+        "value": "listed"
+      }
+    },
+    {
+      "type": "h3",
+      "label": "Account",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Account Number",
+      "attributes": {
+        "type": "number",
+        "name": "accounts-additional-number"
+      }
+    },
+    {
+      "type": "select",
+      "label": "",
+      "data": {
+        "values": [
+          {
+            "label": "Select Account Type",
+            "value": "selectaccounttype"
+          },
+          {
+            "label": "Checking",
+            "value": "Checking"
+          },
+          {
+            "label": "Savings",
+            "value": "Savings"
+          },
+          {
+            "label": "Money Market",
+            "value": "Money Market"
+          }
+        ]
+      },
+      "attributes": {
+        "name": "accounts-additional-type"
+      }
+    },
+    {
+      "type": "h2",
+      "label": "eStatements",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "In order to complete the enrollment, you must view the sample eStatement to ensure you'll be able to view your eStatement.",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "Click on the sample eStatement link below and find the authentication code necessary to complete this enrollment form. The authentication code is located at the top of the sample eStatement.",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Enter the case sensitive authentication code (found in the sample eStatement)",
+      "attributes": {
+        "type": "text",
+        "name": "authentication-code",
+        "pattern": "f153rV",
+        "required": ""
+      }
+    },
+    {
+      "type": "h2",
+      "label": "Authorization",
+      "hidden": false
+    },
+    {
+      "type": "p",
+      "label": "By clicking the \"I Agree\" box below, the applicant(s) request(s) the described services and agrees to the terms and conditions governing the services, including any fees and charges. The applicant(s) agree(s) that all information is accurate. Check the \"I Agree\" box to indicate that you (the applicant) have read the agreement and accept its terms.",
+      "hidden": false
+    },
+    {
+      "type": "input",
+      "label": "Yes, I agree to the Terms and Conditions",
+      "attributes": {
+        "type": "checkbox",
+        "name": "authorization-agree",
+        "value": "true",
+        "required": ""
+      }
+    }
+  ]
+}

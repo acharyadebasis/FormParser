@@ -1,0 +1,292 @@
+﻿<form class="fiserv-form" id="the-form" name="the-form" method="post" action="https://whstage1.secureinternetbank.com/secureforms/forms/fiserv/blank">
+    <header>
+        <input type="hidden" name="submitClientID" value="B71661D6-0CB6-4C9F-B468-2CEE36BE3877">
+        <input type="hidden" name="submitFormdesc" value="Personal Deposit Application">
+        <input type="hidden" name="submitReDirect" value="../Forms/Fiserv/success.aspx">
+        <input type="hidden" name="secureFormParams" value="">
+        <h1>Personal Deposit Application</h1>
+    </header>
+    <section>
+        <h2>General</h2>
+        <label>
+            <select name="general-type-of-account" required>
+                <option>Select Account Type</option>
+                <option>Discount Checking</option>
+                <option>Personal Checking</option>
+                <option>Advantage Checking</option>
+                <option>Interest Checking</option>
+                <option>Senior Checking</option>
+                <option>Money Market</option>
+                <option>Savings</option>
+                <option>IRA</option>
+                <option>CD</option>
+            </select>
+            <span>Type of Account</span>
+        </label>
+        <fieldset>
+            <legend>Are you signing individually or with a co-signer?</legend>
+            <label>
+                <input type="radio" name="general-joint-account" value="Individual" required>
+                <span>Individually</span>
+            </label>
+            <label>
+                <input type="radio" name="general-joint-account" value="Co-Signer">
+                <span>Co-Signer</span>
+            </label>
+        </fieldset>
+    </section>
+    <section>
+        <h2>Signer</h2>
+        <label class="two-thirds">
+            <input type="text" name="signer-first-name" required>
+            <span>First Name</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="signer-middle-initial">
+            <span>Middle Initial</span>
+        </label>
+        <label class="two-thirds">
+            <input type="text" name="signer-last-name" required>
+            <span>Last Name</span>
+        </label>
+        <label class="thirds">
+            <select name="signer-suffix">
+                <option value="">Select Suffix</option>
+                <option>I</option>
+                <option>II</option>
+                <option>III</option>
+                <option>IV</option>
+                <option>Jr.</option>
+                <option>Sr.</option>
+            </select>
+            <span>Suffix</span>
+        </label>
+        <label class="thirds">
+            <input class="ssn" type="text" name="signer-social-security-number" required>
+            <span>Social Security Number</span>
+        </label>
+        <label class="thirds">
+            <input class="date" type="text" name="signer-birth-date" required>
+            <span>Birth Date</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="signer-mothers-maiden-name" required>
+            <span>Mother's Maiden Name</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="signer-driver-license" required>
+            <span>Driver's License Number</span>
+        </label>
+        <label class="thirds">
+            <select name="signer-driver-license-state" required>
+                <option value="">Select State Issued</option>
+                <!-- #include file="inc_form-state-list.aspx" -->
+            </select>
+            <span>State Issued</span>
+        </label>
+        <label class="thirds">
+            <input class="date" type="text" name="signer-driver-license-expiration" required>
+            <span>Date of Expiration</span>
+        </label>
+        <label>
+            <input type="text" name="signer-address" required>
+            <span>Street Address</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="signer-city" required>
+            <span>City</span>
+        </label>
+        <label class="thirds">
+            <select name="signer-state" required>
+                <option value="">Select State</option>
+                <!-- #include file="inc_form-state-list.aspx" -->
+            </select>
+            <span>State</span>
+        </label>
+        <label class="thirds">
+            <input class="zip" type="text" name="signer-zip-code" required>
+            <span>Zip Code</span>
+        </label>
+        <label>
+            <input type="checkbox" name="signer-mailing-not-street-address" value="yes">
+            <span>Mailing address is different than street address.</span>
+        </label>
+        <div data-expander="signer-mailing-not-street-address">
+            <label>
+                <input type="text" name="signer-mailing-address" required>
+                <span>Mailing Address</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="signer-mailing-city" required>
+                <span>City</span>
+            </label>
+            <label class="thirds">
+                <select name="signer-mailing-state" required>
+                    <option value="">Select State</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State</span>
+            </label>
+            <label class="thirds">
+                <input class="zip" type="text" name="signer-mailing-zip-code" required>
+                <span>Zip Code</span>
+            </label>
+        </div>
+        <label class="half">
+            <input type="tel" name="signer-home-phone" required>
+            <span>Home Phone Number</span>
+        </label>
+        <label class="half">
+            <input type="tel" name="signer-work-phone">
+            <span>Work Phone Number</span>
+        </label>
+        <label>
+            <input type="email" name="signer-email-address" required>
+            <span>E-mail Address</span>
+        </label>
+        <label data-expander="signer-email-address">
+            <input type="checkbox" name="signer-do-not-email" value="ON">
+            <span>Please do NOT email me important news and updates.</span>
+        </label>
+        <label>
+            <input type="text" name="signer-occupation" required>
+            <span>Occupation</span>
+        </label>
+        <label>
+            <input type="text" name="signer-employer" required>
+            <span>Employer Name</span>
+        </label>
+    </section>
+    <section data-expander="general-joint-account-1">
+        <h2>Signer</h2>
+        <label class="two-thirds">
+            <input type="text" name="co-signer-first-name" required>
+            <span>First Name</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="co-signer-middle-initial">
+            <span>Middle Initial</span>
+        </label>
+        <label class="two-thirds">
+            <input type="text" name="co-signer-last-name" required>
+            <span>Last Name</span>
+        </label>
+        <label class="thirds">
+            <select name="co-signer-suffix">
+                <option value="">Select Suffix</option>
+                <option>I</option>
+                <option>II</option>
+                <option>III</option>
+                <option>IV</option>
+                <option>Jr.</option>
+                <option>Sr.</option>
+            </select>
+            <span>Suffix</span>
+        </label>
+        <label class="thirds">
+            <input class="ssn" type="text" name="co-signer-social-security-number" required>
+            <span>Social Security Number</span>
+        </label>
+        <label class="thirds">
+            <input class="date" type="text" name="co-signer-birth-date" required>
+            <span>Birth Date</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="co-signer-mothers-maiden-name" required>
+            <span>Mother's Maiden Name</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="co-signer-driver-license" required>
+            <span>Driver's License Number</span>
+        </label>
+        <label class="thirds">
+            <select name="co-signer-driver-license-state" required>
+                <option value="">Select State Issued</option>
+                <!-- #include file="inc_form-state-list.aspx" -->
+            </select>
+            <span>State Issued</span>
+        </label>
+        <label class="thirds">
+            <input class="date" type="text" name="co-signer-driver-license-expiration" required>
+            <span>Date of Expiration</span>
+        </label>
+        <label>
+            <input type="text" name="co-signer-address" required>
+            <span>Street Address</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="co-signer-city" required>
+            <span>City</span>
+        </label>
+        <label class="thirds">
+            <select name="co-signer-state" required>
+                <option value="">Select State</option>
+                <!-- #include file="inc_form-state-list.aspx" -->
+            </select>
+            <span>State</span>
+        </label>
+        <label class="thirds">
+            <input class="zip" type="text" name="co-signer-zip-code" required>
+            <span>Zip Code</span>
+        </label>
+        <label>
+            <input type="checkbox" name="co-signer-mailing-not-street-address" value="yes">
+            <span>Mailing address is different than street address.</span>
+        </label>
+        <div data-expander="co-signer-mailing-not-street-address">
+            <label>
+                <input type="text" name="co-signer-mailing-address" required>
+                <span>Mailing Address</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="co-signer-mailing-city" required>
+                <span>City</span>
+            </label>
+            <label class="thirds">
+                <select name="co-signer-mailing-state" required>
+                    <option value="">Select State</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State</span>
+            </label>
+            <label class="thirds">
+                <input class="zip" type="text" name="co-signer-mailing-zip-code" required>
+                <span>Zip Code</span>
+            </label>
+        </div>
+        <label class="half">
+            <input type="tel" name="co-signer-home-phone" required>
+            <span>Home Phone Number</span>
+        </label>
+        <label class="half">
+            <input type="tel" name="co-signer-work-phone">
+            <span>Work Phone Number</span>
+        </label>
+        <label>
+            <input type="email" name="co-signer-email-address" required>
+            <span>E-mail Address</span>
+        </label>
+        <label data-expander="co-signer-email-address">
+            <input type="checkbox" name="co-signer-do-not-email" value="ON">
+            <span>Please do NOT email me important news and updates.</span>
+        </label>
+        <label>
+            <input type="text" name="co-signer-occupation" required>
+            <span>Occupation</span>
+        </label>
+        <label>
+            <input type="text" name="co-signer-employer" required>
+            <span>Employer Name</span>
+        </label>
+    </section>
+    <section>
+        <h2>Authorization</h2>
+        <p>By clicking the "I Agree" box below, the applicant(s) request(s) the described services and agrees to the terms and conditions governing the services, including any fees and charges. The applicant(s) agree(s) that all information is accurate and authorizes the financial institution to verify credit and employment history, if necessary, by any means, including preparation of a credit report by a credit agency. Check the "I Agree" box to indicate that you (the applicant) have read the agreement and accept its terms.</p>
+        <label>
+            <input type="checkbox" name="authorization-agree" value="true" required>
+            <span>Yes, I agree to the Terms and Conditions</span>
+        </label>
+        <button class="Button1" type="submit">Submit</button>
+    </section>
+</form>
+

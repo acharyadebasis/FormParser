@@ -1,0 +1,1593 @@
+﻿<form class="fiserv-form" id="the-form" name="the-form" method="post" action="https://whstage1.secureinternetbank.com/secureforms/forms/fiserv/blank">
+    <header>
+        <input type="hidden" name="submitClientID" value="B71661D6-0CB6-4C9F-B468-2CEE36BE3877">
+        <input type="hidden" name="submitFormdesc" value="Mortgage Loan Application">
+        <input type="hidden" name="submitReDirect" value="../Forms/Fiserv/success.aspx">
+        <input type="hidden" name="secureFormParams" value="">
+        <h1>Mortgage Loan Application</h1>
+    </header>
+    <section>
+        <h2>Important Information About Procedures For Opening a New Account</h2>
+        <p>To help the government fight the funding of terrorism and money laundering activities, Federal law requires all financial institutions to obtain, verify and record information that identifies each person who opens an account.</p>
+        <strong>What this means for you:</strong>
+        <p>When you open an account, we will ask for your name, address, date of birth and other information that will allow us to identify you. We may also ask to see your driver's license or other identifying documents and use third party identifiers such as chex systems and/or credit bureau reports.</p>
+    </section>
+    <section>
+        <h2>Loan Information</h2>
+        <fieldset>
+            <legend>Are you applying for joint credit?</legend>
+            <label>
+                <input type="radio" name="loan-applying-joint-credit" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="loan-applying-joint-credit" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>What type of mortgage are you applying for?</legend>
+            <label>
+                <input type="radio" name="loan-mortgage-applied-for" value="conventional" required>
+                <span>Conventional</span>
+            </label>
+            <label>
+                <input type="radio" name="loan-mortgage-applied-for" value="usda">
+                <span>USDA/Rural Housing Service</span>
+            </label>
+            <label>
+                <input type="radio" name="loan-mortgage-applied-for" value="other">
+                <span>Other</span>
+            </label>
+        </fieldset>
+        <label data-expander="loan-mortgage-applied-for-2">
+            <input type="text" name="loan-mortgage-applied-for-other-explain" required>
+            <span>Explain</span>
+        </label>
+        <label>
+            <input class="currency" type="text" name="loan-amount" required>
+            <span>Loan Amount</span>
+        </label>
+        <label>
+            <input class="currency" type="text" name="loan-purchase-price" required>
+            <span>Purchase Price</span>
+        </label>
+        <fieldset>
+            <legend>Purpose of Loan</legend>
+            <label>
+                <input type="radio" name="loan-purpose" value="Purchase" required>
+                <span>Purchase</span>
+            </label>
+            <label>
+                <input type="radio" name="loan-purpose" value="Refinance">
+                <span>Refinance</span>
+            </label>
+            <label>
+                <input type="radio" name="loan-purpose" value="Construction">
+                <span>Construction</span>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Is this application for pre-qualification?</legend>
+            <label>
+                <input type="radio" name="loan-prequalification" value="Yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="loan-prequalification" value="No">
+                <span>No</span>
+            </label>
+        </fieldset>
+    </section>
+    <section>
+        <h2>Property Information</h2>
+        <div data-expander="loan-prequalification-1">
+            <label>
+                <input type="text" name="property-address" required>
+                <span>Property Address</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="property-city" required>
+                <span>City</span>
+            </label>
+            <label class="thirds">
+                <select name="property-state" required>
+                    <option value="">Select State</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State</span>
+            </label>
+            <label class="thirds">
+                <input class="zip" type="text" name="property-zip-code" required>
+                <span>Zip Code</span>
+            </label>
+            <label>
+                <input type="number" name="property-number-of-units" required>
+                <span>Number of Units</span>
+            </label>
+            <div data-expander="loan-purpose-1">
+                <h3>Refinance</h3>
+                <label>
+                    <input type="text" name="property-year-acquired" required>
+                    <span>Year Acquired</span>
+                </label>
+                <label>
+                    <input class="currency" type="text" name="property-original-cost" required>
+                    <span>Original Cost</span>
+                </label>
+                <label>
+                    <input class="currency" type="text" name="property-amount-existing-liens" required>
+                    <span>Amount of Existing Liens</span>
+                </label>
+                <label>
+                    <input type="text" name="purpose-of-refinance" required>
+                    <span>Purpose of Refinance</span>
+                </label>
+            </div>
+        </div>
+        <fieldset>
+            <legend>Will this be used for improvements?</legend>
+            <label>
+                <input type="radio" name="loan-improvements" value="Yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="loan-improvements" value="No" required>
+                <span>No</span>
+            </label>
+        </fieldset>
+        <div data-expander="loan-improvements-0">
+            <label>
+                <input type="checkbox" name="loan-improvements-finished" value="Yes">
+                <span>Improvements have already been made.</span>
+            </label>
+            <label>
+                <textarea name="loan-decribe-improvements" id="loan-decribe-improvements" required></textarea>
+                <span>Describe Improvements</span>
+            </label>
+        </div>
+    </section>
+    <section>
+        <h2>Borrower Information</h2>
+        <label class="two-thirds">
+            <input type="text" name="borrower-first-name" required>
+            <span>First Name</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="borrower-middle-initial">
+            <span>Middle Initial</span>
+        </label>
+        <label class="two-thirds">
+            <input type="text" name="borrower-last-name" required>
+            <span>Last Name</span>
+        </label>
+        <label class="thirds">
+            <select name="borrower-suffix">
+                <option value="">Select Suffix</option>
+                <option>I</option>
+                <option>II</option>
+                <option>III</option>
+                <option>IV</option>
+                <option>Jr.</option>
+                <option>Sr.</option>
+            </select>
+            <span>Suffix</span>
+        </label>
+        <label class="thirds">
+            <input class="ssn" type="text" name="borrower-social-security-number" required>
+            <span>Social Security Number</span>
+        </label>
+        <label class="thirds">
+            <input class="date" type="text" name="borrower-birth-date" required>
+            <span>Birth Date</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="borrower-mothers-maiden-name" required>
+            <span>Mother's Maiden Name</span>
+        </label>
+        <label>
+            <input type="tel" name="borrower-home-phone" required>
+            <span>Home Phone Number</span>
+        </label>
+        <label>
+            <input type="email" name="borrower-email-address">
+            <span>E-mail Address</span>
+        </label>
+        <label data-expander="borrower-email-address">
+            <input type="checkbox" name="borrower-do-not-email" value="ON">
+            <span>Please do NOT email me important news and updates.</span>
+        </label>
+        <fieldset>
+            <legend>Marital Status</legend>
+            <label>
+                <input type="radio" name="borrower-marital-status" value="single" required>
+                <span>Single</span>
+            </label>
+            <label>
+                <input type="radio" name="borrower-marital-status" value="married">
+                <span>Married</span>
+            </label>
+            <label>
+                <input type="radio" name="borrower-marital-status" value="separated">
+                <span>Separated</span>
+            </label>
+            <label>
+                <input type="radio" name="borrower-marital-status" value="divorced">
+                <span>Divorced</span>
+            </label>
+            <label>
+                <input type="radio" name="borrower-marital-status" value="widowed">
+                <span>Widowed</span>
+            </label>
+        </fieldset>
+        <label class="half">
+            <input type="number" name="borrower-number-dependents" required>
+            <span>Number of Dependents (Not Listed by Co-Borrower)</span>
+        </label>
+        <label class="half">
+            <input type="text" name="borrower-dependent-ages">
+            <span>List Dependents' Ages</span>
+        </label>
+        <h3>Housing</h3>
+        <label>
+            <input type="text" name="borrower-address" required>
+            <span>Home Address</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="borrower-city" required>
+            <span>City</span>
+        </label>
+        <label class="thirds">
+            <select name="borrower-state" required>
+                <option value="">Select State</option>
+                <!-- #include file="inc_form-state-list.aspx" -->
+            </select>
+            <span>State</span>
+        </label>
+        <label class="thirds">
+            <input class="zip" type="text" name="borrower-zip-code" required>
+            <span>Zip Code</span>
+        </label>
+        <label>
+            <input type="checkbox" name="borrower-mailing-not-street-address" value="yes">
+            <span>Mailing address is different than street address.</span>
+        </label>
+        <div data-expander="borrower-mailing-not-street-address">
+            <label>
+                <input type="text" name="borrower-mailing-address" required>
+                <span>Mailing Address</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="borrower-mailing-city" required>
+                <span>City</span>
+            </label>
+            <label class="thirds">
+                <select name="borrower-mailing-state" required>
+                    <option value="">Select State</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State</span>
+            </label>
+            <label class="thirds">
+                <input class="zip" type="text" name="borrower-mailing-zip-code" required>
+                <span>Zip Code</span>
+            </label>
+        </div>
+        <fieldset>
+            <legend>Do you own or rent this property?</legend>
+            <label>
+                <input type="radio" name="borrower-housing-status" value="own" required>
+                <span>Own</span>
+            </label>
+            <label>
+                <input type="radio" name="borrower-housing-status" value="rent">
+                <span>Rent</span>
+            </label>
+            <label>
+                <input type="radio" name="borrower-housing-status" value="other">
+                <span>Other</span>
+            </label>
+        </fieldset>
+        <label data-expander="borrower-housing-status-2">
+            <input type="text" name="borrower-housing-other-describe" required>
+            <span>Explain</span>
+        </label>
+        <label class="half">
+            <input class="date" type="text" name="borrower-housing-status-date-of-residency" required>
+            <span>Residency Start Date</span>
+        </label>
+        <label class="half">
+            <input class="currency" type="text" name="borrower-housing-status-monthly-payment" required>
+            <span>Monthly Mortgage or Rent Payment</span>
+        </label>
+        <fieldset>
+            <legend>Have you lived here for two or more years?</legend>
+            <label>
+                <input type="radio" name="borrower-minimum-residency" value="Yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="borrower-minimum-residency" value="No">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <div data-expander="borrower-minimum-residency-1">
+            <label>
+                <input type="text" name="borrower-previous-address" required>
+                <span>Previous Home Address</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="borrower-previous-city" required>
+                <span>City</span>
+            </label>
+            <label class="thirds">
+                <select name="borrower-previous-state" required>
+                    <option value="">Select State</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State</span>
+            </label>
+            <label class="thirds">
+                <input class="zip" type="text" name="borrower-previous-zip-code" required>
+                <span>Zip Code</span>
+            </label>
+            <fieldset>
+                <legend>Did you own or rent this property?</legend>
+                <label>
+                    <input type="radio" name="borrower-previous-housing-status" value="own" required>
+                    <span>Own</span>
+                </label>
+                <label>
+                    <input type="radio" name="borrower-previous-housing-status" value="rent" required>
+                    <span>Rent</span>
+                </label>
+                <label>
+                    <input type="radio" name="borrower-previous-housing-status" value="other" required>
+                    <span>Other</span>
+                </label>
+            </fieldset>
+            <label data-expander="borrower-previous-housing-status-2">
+                <input type="text" name="borrower-previous-housing-other-describe" required>
+                <span>Explain</span>
+            </label>
+            <label class="half">
+                <input class="date" type="text" name="borrower-previous-housing-status-date-of-residency" required>
+                <span>Residency Start Date</span>
+            </label>
+            <label class="half">
+                <input class="currency" type="text" name="borrower-previous-housing-status-monthly-payment" required>
+                <span>Monthly Mortgage or Rent Payment</span>
+            </label>
+        </div>
+        <h3>Employment Information</h3>
+        <fieldset>
+            <legend>Is the borrower employed?</legend>
+            <label>
+                <input type="radio" name="borrower-employment-status" value="employed" required>
+                <span>Employed</span>
+            </label>
+            <label>
+                <input type="radio" name="borrower-employment-status" value="unemployed">
+                <span>Not Employed</span>
+            </label>
+        </fieldset>
+        <div data-expander="borrower-employment-status-0">
+            <label class="thirds">
+                <input class="date" type="text" name="borrower-employment-start-date" required>
+                <span>Employment Start Date</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="borrower-employment-position" required>
+                <span>Position or Title</span>
+            </label>
+            <label class="thirds">
+                <input class="currency" type="text" name="borrower-gross-monthly-income" required>
+                <span>Gross Monthly Income</span>
+            </label>
+            <label>
+                <input type="text" name="borrower-employer-name" required>
+                <span>Name of Employer</span>
+            </label>
+            <label>
+                <input type="text" name="borrower-employer-address" required>
+                <span>Employer's Address</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="borrower-employer-city" required>
+                <span>City</span>
+            </label>
+            <label class="thirds">
+                <select name="borrower-employer-state" required>
+                    <option value="">Select State</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State</span>
+            </label>
+            <label class="thirds">
+                <input class="zip" type="text" name="borrower-employer-zip-code" required>
+                <span>Zip Code</span>
+            </label>
+            <label>
+                <input type="tel" name="borrower-employer-phone" required>
+                <span>Employer's Phone Number</span>
+            </label>
+        </div>
+        <fieldset>
+            <legend>Have you worked here for more than two years? (No if unemployed)</legend>
+            <label data-expander="borrower-employment-status-0">
+                <input type="radio" name="borrower-employer-less-than-three-years" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="borrower-employer-less-than-three-years" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <div data-expander="borrower-employer-less-than-three-years-1">
+            <h3>Previous Employer</h3>
+            <label class="thirds">
+                <input class="date" type="text" name="borrower-employment-start-date-1">
+                <span>Employment Start Date</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="borrower-employment-position-1">
+                <span>Position or Title</span>
+            </label>
+            <label class="thirds">
+                <input class="currency" type="text" name="borrower-gross-monthly-income-1">
+                <span>Gross Monthly Income</span>
+            </label>
+            <label>
+                <input type="text" name="borrower-employer-name-1">
+                <span>Name of Employer</span>
+            </label>
+            <label>
+                <input type="text" name="borrower-employer-address-1">
+                <span>Employer's Address</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="borrower-employer-city-1">
+                <span>City</span>
+            </label>
+            <label class="thirds">
+                <select name="borrower-employer-state-1">
+                    <option value="">Select State</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State</span>
+            </label>
+            <label class="thirds">
+                <input class="zip" type="text" name="borrower-employer-zip-code-1">
+                <span>Zip Code</span>
+            </label>
+            <label>
+                <input type="tel" name="borrower-employer-phone-1">
+                <span>Employer's Phone Number</span>
+            </label>
+        </div>
+    </section>
+    <section data-expander="loan-applying-joint-credit-0">
+        <h2>Co-Borrower Information</h2>
+        <label class="two-thirds">
+            <input type="text" name="co-borrower-first-name" required>
+            <span>First Name</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="co-borrower-middle-initial">
+            <span>Middle Initial</span>
+        </label>
+        <label class="two-thirds">
+            <input type="text" name="co-borrower-last-name" required>
+            <span>Last Name</span>
+        </label>
+        <label class="thirds">
+            <select name="co-borrower-suffix">
+                <option value="">Select Suffix</option>
+                <option>I</option>
+                <option>II</option>
+                <option>III</option>
+                <option>IV</option>
+                <option>Jr.</option>
+                <option>Sr.</option>
+            </select>
+            <span>Suffix</span>
+        </label>
+        <label class="thirds">
+            <input class="ssn" type="text" name="co-borrower-social-security-number" required>
+            <span>Social Security Number</span>
+        </label>
+        <label class="thirds">
+            <input class="date" type="text" name="co-borrower-birth-date" required>
+            <span>Birth Date</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="co-borrower-mothers-maiden-name" required>
+            <span>Mother's Maiden Name</span>
+        </label>
+        <label>
+            <input type="tel" name="co-borrower-home-phone" required>
+            <span>Home Phone Number</span>
+        </label>
+        <label>
+            <input type="email" name="co-borrower-email-address">
+            <span>E-mail Address</span>
+        </label>
+        <label data-expander="co-borrower-email-address">
+            <input type="checkbox" name="co-borrower-do-not-email" value="ON">
+            <span>Please do NOT email me important news and updates.</span>
+        </label>
+        <fieldset>
+            <legend>Marital Status</legend>
+            <label>
+                <input type="radio" name="co-borrower-marital-status" value="single" required>
+                <span>Single</span>
+            </label>
+            <label>
+                <input type="radio" name="co-borrower-marital-status" value="married">
+                <span>Married</span>
+            </label>
+            <label>
+                <input type="radio" name="co-borrower-marital-status" value="separated">
+                <span>Separated</span>
+            </label>
+            <label>
+                <input type="radio" name="co-borrower-marital-status" value="divorced">
+                <span>Divorced</span>
+            </label>
+            <label>
+                <input type="radio" name="co-borrower-marital-status" value="widowed">
+                <span>Widowed</span>
+            </label>
+        </fieldset>
+        <label class="half">
+            <input type="number" name="co-borrower-number-dependents" required>
+            <span>Number of Dependents (Not Listed by Co-Borrower)</span>
+        </label>
+        <label class="half">
+            <input type="text" name="co-borrower-dependent-ages">
+            <span>List Dependents' Ages</span>
+        </label>
+        <h3>Housing</h3>
+        <label>
+            <input type="text" name="co-borrower-address" required>
+            <span>Home Address</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="co-borrower-city" required>
+            <span>City</span>
+        </label>
+        <label class="thirds">
+            <select name="co-borrower-state" required>
+                <option value="">Select State</option>
+                <!-- #include file="inc_form-state-list.aspx" -->
+            </select>
+            <span>State</span>
+        </label>
+        <label class="thirds">
+            <input class="zip" type="text" name="co-borrower-zip-code" required>
+            <span>Zip Code</span>
+        </label>
+        <label>
+            <input type="checkbox" name="co-borrower-mailing-not-street-address" value="yes">
+            <span>Mailing address is different than street address.</span>
+        </label>
+        <div data-expander="co-borrower-mailing-not-street-address">
+            <label>
+                <input type="text" name="co-borrower-mailing-address" required>
+                <span>Mailing Address</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="co-borrower-mailing-city" required>
+                <span>City</span>
+            </label>
+            <label class="thirds">
+                <select name="co-borrower-mailing-state" required>
+                    <option value="">Select State</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State</span>
+            </label>
+            <label class="thirds">
+                <input class="zip" type="text" name="co-borrower-mailing-zip-code" required>
+                <span>Zip Code</span>
+            </label>
+        </div>
+        <fieldset>
+            <legend>Do you own or rent this property?</legend>
+            <label>
+                <input type="radio" name="co-borrower-housing-status" value="own" required>
+                <span>Own</span>
+            </label>
+            <label>
+                <input type="radio" name="co-borrower-housing-status" value="rent">
+                <span>Rent</span>
+            </label>
+            <label>
+                <input type="radio" name="co-borrower-housing-status" value="other">
+                <span>Other</span>
+            </label>
+        </fieldset>
+        <label data-expander="co-borrower-housing-status-2">
+            <input type="text" name="co-borrower-housing-other-describe" required>
+            <span>Explain</span>
+        </label>
+        <label class="half">
+            <input class="date" type="text" name="co-borrower-housing-status-date-of-residency" required>
+            <span>Residency Start Date</span>
+        </label>
+        <label class="half">
+            <input class="currency" type="text" name="co-borrower-housing-status-monthly-payment" required>
+            <span>Monthly Mortgage or Rent Payment</span>
+        </label>
+        <fieldset>
+            <legend>Have you lived here for two or more years?</legend>
+            <label>
+                <input type="radio" name="co-borrower-minimum-residency" value="Yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="co-borrower-minimum-residency" value="No">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <div data-expander="co-borrower-minimum-residency-1">
+            <label>
+                <input type="text" name="co-borrower-previous-address" required>
+                <span>Previous Home Address</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="co-borrower-previous-city" required>
+                <span>City</span>
+            </label>
+            <label class="thirds">
+                <select name="co-borrower-previous-state" required>
+                    <option value="">Select State</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State</span>
+            </label>
+            <label class="thirds">
+                <input class="zip" type="text" name="co-borrower-previous-zip-code" required>
+                <span>Zip Code</span>
+            </label>
+            <fieldset>
+                <legend>Did you own or rent this property?</legend>
+                <label>
+                    <input type="radio" name="co-borrower-previous-housing-status" value="own" required>
+                    <span>Own</span>
+                </label>
+                <label>
+                    <input type="radio" name="co-borrower-previous-housing-status" value="rent" required>
+                    <span>Rent</span>
+                </label>
+                <label>
+                    <input type="radio" name="co-borrower-previous-housing-status" value="other" required>
+                    <span>Other</span>
+                </label>
+            </fieldset>
+            <label data-expander="co-borrower-previous-housing-status-2">
+                <input type="text" name="co-borrower-previous-housing-other-describe" required>
+                <span>Explain</span>
+            </label>
+            <label class="half">
+                <input class="date" type="text" name="co-borrower-previous-housing-status-date-of-residency" required>
+                <span>Residency Start Date</span>
+            </label>
+            <label class="half">
+                <input class="currency" type="text" name="co-borrower-previous-housing-status-monthly-payment" required>
+                <span>Monthly Mortgage or Rent Payment</span>
+            </label>
+        </div>
+        <h3>Employment Information</h3>
+        <fieldset>
+            <legend>Is the borrower employed?</legend>
+            <label>
+                <input type="radio" name="co-borrower-employment-status" value="employed" required>
+                <span>Employed</span>
+            </label>
+            <label>
+                <input type="radio" name="co-borrower-employment-status" value="unemployed">
+                <span>Not Employed</span>
+            </label>
+        </fieldset>
+        <div data-expander="co-borrower-employment-status-0">
+            <label class="thirds">
+                <input class="date" type="text" name="co-borrower-employment-start-date" required>
+                <span>Employment Start Date</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="co-borrower-employment-position" required>
+                <span>Position or Title</span>
+            </label>
+            <label class="thirds">
+                <input class="currency" type="text" name="co-borrower-gross-monthly-income" required>
+                <span>Gross Monthly Income</span>
+            </label>
+            <label>
+                <input type="text" name="co-borrower-employer-name" required>
+                <span>Name of Employer</span>
+            </label>
+            <label>
+                <input type="text" name="co-borrower-employer-address" required>
+                <span>Employer's Address</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="co-borrower-employer-city" required>
+                <span>City</span>
+            </label>
+            <label class="thirds">
+                <select name="co-borrower-employer-state" required>
+                    <option value="">Select State</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State</span>
+            </label>
+            <label class="thirds">
+                <input class="zip" type="text" name="co-borrower-employer-zip-code" required>
+                <span>Zip Code</span>
+            </label>
+            <label>
+                <input type="tel" name="co-borrower-employer-phone" required>
+                <span>Employer's Phone Number</span>
+            </label>
+        </div>
+        <fieldset>
+            <legend>Have you worked here for more than two years? (No if unemployed)</legend>
+            <label data-expander="co-borrower-employment-status-0">
+                <input type="radio" name="co-borrower-employer-less-than-three-years" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="co-borrower-employer-less-than-three-years" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <div data-expander="co-borrower-employer-less-than-three-years-1">
+            <h3>Previous Employer</h3>
+            <label class="thirds">
+                <input class="date" type="text" name="co-borrower-employment-start-date-1">
+                <span>Employment Start Date</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="co-borrower-employment-position-1">
+                <span>Position or Title</span>
+            </label>
+            <label class="thirds">
+                <input class="currency" type="text" name="co-borrower-gross-monthly-income-1">
+                <span>Gross Monthly Income</span>
+            </label>
+            <label>
+                <input type="text" name="co-borrower-employer-name-1">
+                <span>Name of Employer</span>
+            </label>
+            <label>
+                <input type="text" name="co-borrower-employer-address-1">
+                <span>Employer's Address</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="co-borrower-employer-city-1">
+                <span>City</span>
+            </label>
+            <label class="thirds">
+                <select name="co-borrower-employer-state-1">
+                    <option value="">Select State</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State</span>
+            </label>
+            <label class="thirds">
+                <input class="zip" type="text" name="co-borrower-employer-zip-code-1">
+                <span>Zip Code</span>
+            </label>
+            <label>
+                <input type="tel" name="co-borrower-employer-phone-1">
+                <span>Employer's Phone Number</span>
+            </label>
+        </div>
+    </section>
+    <section>
+        <h2>Financial Information</h2>
+        <p>Please note: Alimony, child support or separate maintenance income need not be revealed if the Borrower or Co-Borrower does not choose to have it considered for repaying this loan. Also self employed borrowers may be required to provide additional documentation such as tax returns and financial statements. (before taxes)</p>
+        <h3>Borrower's Gross Monthly Income</h3>
+        <label>
+            <input class="currency" type="text" name="financial-income-borrower-gross-monthly" required>
+            <span>Monthly Salary & Wages</span>
+        </label>
+        <label>
+            <input class="currency" type="text" name="financial-income-borrower-other">
+            <span>Other Monthly Income (if any)</span>
+        </label>
+        <label data-expander="financial-income-borrower-other">
+            <input type="text" name="financial-income-borrower-other-type" required>
+            <span>Income Type</span>
+        </label>
+        <div data-expander="loan-applying-joint-credit-0">
+            <h3>Co-Borrower's Gross Monthly Income</h3>
+            <label>
+                <input class="currency" type="text" name="financial-income-coborrower-gross-monthly" required>
+                <span>Monthly Salary & Wages</span>
+            </label>
+            <label>
+                <input class="currency" type="text" name="financial-income-coborrower-other">
+                <span>Other Monthly Income (if any)</span>
+            </label>
+            <label data-expander="financial-income-coborrower-other">
+                <input type="text" name="financial-income-coborrower-other-type" required>
+                <span>Income Type</span>
+            </label>
+        </div>
+        <h3>Current Monthly Housing Expenses</h3>
+        <label>
+            <input class="currency" type="text" name="financial-housing-rent-amount">
+            <span>Rent</span>
+        </label>
+        <label class="half">
+            <input class="currency" type="text" name="financial-housing-first-mortgage">
+            <span>First Mortgage</span>
+        </label>
+        <label class="half">
+            <input class="currency" type="text" name="financial-housing-second-mortgage">
+            <span>Second Mortgage</span>
+        </label>
+        <label class="half">
+            <input class="currency" type="text" name="financial-housing-hazard-insurance">
+            <span>Hazard Insurance</span>
+        </label>
+        <label class="half">
+            <input class="currency" type="text" name="financial-housing-property-taxes">
+            <span>Property Taxes</span>
+        </label>
+        <label class="half">
+            <input class="currency" type="text" name="financial-housing-mortgage-insurance">
+            <span>Mortgage Insurance</span>
+        </label>
+        <label class="half">
+            <input class="currency" type="text" name="financial-housing-homeowner-association-dues">
+            <span>Home Owners Association Dues</span>
+        </label>
+        <h3>Checking or Savings</h3>
+        <p>Please list all checking and savings accounts.</p>
+        <div>
+            <div data-duplicate="3">
+                <h4 class="iterate">Account</h4>
+                <label>
+                    <input type="text" name="financial-account-bank-name" required>
+                    <span>Bank Name</span>
+                </label>
+                <label>
+                    <input type="text" name="financial-account-address" required>
+                    <span>Property Address</span>
+                </label>
+                <label class="thirds">
+                    <input type="text" name="financial-account-city" required>
+                    <span>City</span>
+                </label>
+                <label class="thirds">
+                    <select name="financial-account-state" required>
+                        <option value="">Select State</option>
+                        <!-- #include file="inc_form-state-list.aspx" -->
+                    </select>
+                    <span>State</span>
+                </label>
+                <label class="thirds">
+                    <input class="zip" type="text" name="financial-account-zip-code" required>
+                    <span>Zip Code</span>
+                </label>
+                <label class="half">
+                    <input type="number" name="financial-account-number" required>
+                    <span>Account Number</span>
+                </label>
+                <label class="half">
+                    <input class="currency" type="text" name="financial-account-balance" required>
+                    <span>Account Balance</span>
+                </label>
+            </div>
+        </div>
+        <h3>Stocks & Bonds</h3>
+        <label>
+            <input type="text" name="financial-stocks-bonds-description">
+            <span>Description</span>
+        </label>
+        <label>
+            <input class="currency" type="text" name="financial-stocks-bonds-value">
+            <span>Total Value</span>
+        </label>
+        <h3>Life Insurance</h3>
+        <label>
+            <input class="currency" type="text" name="financial-life-insurance-face-amount">
+            <span>Face Amount</span>
+        </label>
+        <label>
+            <input class="currency" type="text" name="financial-life-insurance-cash-value">
+            <span>Cash Value</span>
+        </label>
+        <div>
+            <h3>Real Estate</h3>
+            <div data-duplicate="3">
+                <h4 class="iterate">Property</h4>
+                <label>
+                    <input type="text" name="financial-property-address">
+                    <span>Property Address</span>
+                </label>
+                <label class="thirds">
+                    <input type="text" name="financial-property-city">
+                    <span>City</span>
+                </label>
+                <label class="thirds">
+                    <select name="financial-property-state">
+                        <option value="">Select State</option>
+                        <!-- #include file="inc_form-state-list.aspx" -->
+                    </select>
+                    <span>State</span>
+                </label>
+                <label class="thirds">
+                    <input class="zip" type="text" name="financial-property-zip-code">
+                    <span>Zip Code</span>
+                </label>
+                <label>
+                    <input class="currency" type="text" name="financial-real-estate-estimated-value">
+                    <span>Estimated Value</span>
+                </label>
+            </div>
+        </div>
+        <h3>Miscellaneous Assets</h3>
+        <label>
+            <input class="currency" type="text" name="financial-retirement-vested-interest">
+            <span>Vested Interest in Retirement Plan</span>
+        </label>
+        <label>
+            <input class="currency" type="text" name="financial-business-owned-net-worth">
+            <span>Net Worth of Business Owned</span>
+        </label>
+        <h3>Automobiles</h3>
+        <table class="Table-Form">
+            <thead>
+                <tr>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Year</th>
+                    <th class="thirds">Estimated Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-duplicate="3">
+                    <td>
+                        <label>
+                            <input type="text" name="financial-auto-make">
+                            <span>Make</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="text" name="financial-auto-model">
+                            <span>Model</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="text" name="financial-auto-year">
+                            <span>Year</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input class="currency" type="text" name="financial-auto-value">
+                            <span>Estimated Value</span>
+                        </label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Other Assets</h3>
+        <table class="Table-Form">
+            <thead>
+                <tr>
+                    <th class="two-thirds">Description</th>
+                    <th class="thirds">Total Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-duplicate="3">
+                    <td>
+                        <label>
+                            <input type="text" name="financial-other-asset-description">
+                            <span>Description</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input class="currency" type="text" name="financial-other-asset-value">
+                            <span>Total Value</span>
+                        </label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Current Monthly Payments (Liabilities)</h3>
+        <table class="Table-Form">
+            <thead>
+                <tr>
+                    <th class="two-thirds">Name of Company</th>
+                    <th class="thirds">Monthly Payment</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-duplicate="3">
+                    <td>
+                        <label>
+                            <input type="text" name="financial-liabilities-name">
+                            <span>Name of Company</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input class="currency" type="text" name="financial-liabilities-amount">
+                            <span>Monthly Payment</span>
+                        </label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Borrower Declarations</h2>
+        <p>List any additional names under which credit has previously been received and indicate appropriate creditor name(s) and account number(s)</p>
+        <table class="Table-Form">
+            <thead>
+                <tr>
+                    <th>Alternate Name</th>
+                    <th>Creditor Name</th>
+                    <th>Account Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-duplicate="3">
+                    <td>
+                        <label>
+                            <input type="text" name="declarations-names-alternate-name">
+                            <span>Alternate Name</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="text" name="declarations-names-creditor-name">
+                            <span>Creditor Name</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="number" name="declarations-names-account-number">
+                            <span>Account Number</span>
+                        </label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <fieldset>
+            <legend>Are there any outstanding judgments against you?</legend>
+            <label>
+                <input type="radio" name="declarations-borrower-outstanding-judgements" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="declarations-borrower-outstanding-judgements" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="declarations-borrower-outstanding-judgements-0">
+            <textarea name="declarations-borrower-outstanding-judgements-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Have you been declared bankrupt within the past 7 years?</legend>
+            <label>
+                <input type="radio" name="declarations-borrower-bankrupt" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="declarations-borrower-bankrupt" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="declarations-borrower-bankrupt-0">
+            <textarea name="declarations-borrower-bankrupt-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Have you had property foreclosed upon or given title or deed in lieu thereof in the last 7 years?</legend>
+            <label>
+                <input type="radio" name="declarations-borrower-foreclosed-upon" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="declarations-borrower-foreclosed-upon" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="declarations-borrower-foreclosed-upon-0">
+            <textarea name="declarations-borrower-foreclosed-upon-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Are you a party to a lawsuit?</legend>
+            <label>
+                <input type="radio" name="declarations-borrower-party-to-lawsuit" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="declarations-borrower-party-to-lawsuit" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="declarations-borrower-party-to-lawsuit-0">
+            <textarea name="declarations-borrower-party-to-lawsuit-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Have you directly or indirectly been obligated on any loan which resulted in foreclosure, transfer or title in lieu of foreclosure, or judgment? (This would include such loans as home mortgage loans, SBA loans, home improvement loans, educational loans, manufactured (mobile) home loans, any mortgage, financial obligation, bond, or loan guarantee. If "Yes" provide details, including date, name and address of Lender, FHA or VA case number, if any, and reasons for the action.)</legend>
+            <label>
+                <input type="radio" name="declarations-borrower-obligated-loan-resulted-foreclosure-judgment" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="declarations-borrower-obligated-loan-resulted-foreclosure-judgment" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="declarations-borrower-obligated-loan-resulted-foreclosure-judgment-0">
+            <textarea name="declarations-borrower-obligated-loan-resulted-foreclosure-judgment-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Are you presently delinquent or in default on any Federal debt or any other loan, mortgage, financial obligation, bond, or loan guarantee? If "Yes", give details as described in the preceding question.</legend>
+            <label>
+                <input type="radio" name="declarations-borrower-delinquent-default-federal-debt" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="declarations-borrower-delinquent-default-federal-debt" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="declarations-borrower-delinquent-default-federal-debt-0">
+            <textarea name="declarations-borrower-delinquent-default-federal-debt-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Are you obligated to pay alimony, child support, or separate maintenance?</legend>
+            <label>
+                <input type="radio" name="declarations-borrower-obligated-alimony-child-support-separate-maintenance" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="declarations-borrower-obligated-alimony-child-support-separate-maintenance" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="declarations-borrower-obligated-alimony-child-support-separate-maintenance-0">
+            <textarea name="declarations-borrower-obligated-alimony-child-support-separate-maintenance-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Is any part of the down payment borrowed?</legend>
+            <label>
+                <input type="radio" name="declarations-borrower-down-payment-borrowed" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="declarations-borrower-down-payment-borrowed" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="declarations-borrower-down-payment-borrowed-0">
+            <textarea name="declarations-borrower-down-payment-borrowed-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Are you a co-maker or endorser on a note?</legend>
+            <label>
+                <input type="radio" name="declarations-borrower-note-comaker-endorser" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="declarations-borrower-note-comaker-endorser" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="declarations-borrower-note-comaker-endorser-0">
+            <textarea name="declarations-borrower-note-comaker-endorser-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Are you a U.S. citizen?</legend>
+            <label>
+                <input type="radio" name="declarations-borrower-us-citizen" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="declarations-borrower-us-citizen" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Are you a permanent resident alien?</legend>
+            <label>
+                <input type="radio" name="declarations-borrower-permanent-resident-alien" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="declarations-borrower-permanent-resident-alien" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="declarations-borrower-permanent-resident-alien-0">
+            <textarea name="declarations-borrower-permanent-resident-alien-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Do you intend to occupy the property as your primary residence?</legend>
+            <label>
+                <input type="radio" name="declarations-borrower-property-borrower-residence" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="declarations-borrower-property-borrower-residence" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Have you had an ownership interest in a property in the last three years?</legend>
+            <label>
+                <input type="radio" name="declarations-borrower-property-ownership-interest" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="declarations-borrower-property-ownership-interest" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label>
+            <select name="declarations-borrower-owned-property-type">
+                <option value="">Select Property Type</option>
+                <option>(PR) Principal Residence</option>
+                <option>(SH) Second Home</option>
+                <option>(IP) Investment Property</option>
+            </select>
+            <span>What type of property did you own?</span>
+        </label>
+        <label>
+            <select name="declarations-borrower-owned-property-how-held">
+                <option value="">Select How Held</option>
+                <option>(S) Soly</option>
+                <option>(SP) Jointly With Spouse</option>
+                <option>(O) Jointly With Another Person</option>
+            </select>
+            <span>How did you hold the title to the home?</span>
+        </label>
+    </section>
+    <section data-expander="loan-applying-joint-credit-0">
+        <h2>Co-Borrower Declarations</h2>
+        <p>List any additional names under which credit has previously been received and indicate appropriate creditor name(s) and account number(s)</p>
+        <table class="Table-Form">
+            <thead>
+                <tr>
+                    <th>Alternate Name</th>
+                    <th>Creditor Name</th>
+                    <th>Account Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-duplicate="3">
+                    <td>
+                        <label>
+                            <input type="text" name="co-declarations-names-alternate-name">
+                            <span>Alternate Name</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="text" name="co-declarations-names-creditor-name">
+                            <span>Creditor Name</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="number" name="co-declarations-names-account-number">
+                            <span>Account Number</span>
+                        </label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <fieldset>
+            <legend>Are there any outstanding judgments against you?</legend>
+            <label>
+                <input type="radio" name="co-declarations-borrower-outstanding-judgements" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="co-declarations-borrower-outstanding-judgements" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="co-declarations-borrower-outstanding-judgements-0">
+            <textarea name="co-declarations-borrower-outstanding-judgements-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Have you been declared bankrupt within the past 7 years?</legend>
+            <label>
+                <input type="radio" name="co-declarations-borrower-bankrupt" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="co-declarations-borrower-bankrupt" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="co-declarations-borrower-bankrupt-0">
+            <textarea name="co-declarations-borrower-bankrupt-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Have you had property foreclosed upon or given title or deed in lieu thereof in the last 7 years?</legend>
+            <label>
+                <input type="radio" name="co-declarations-borrower-foreclosed-upon" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="co-declarations-borrower-foreclosed-upon" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="co-declarations-borrower-foreclosed-upon-0">
+            <textarea name="co-declarations-borrower-foreclosed-upon-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Are you a party to a lawsuit?</legend>
+            <label>
+                <input type="radio" name="co-declarations-borrower-party-to-lawsuit" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="co-declarations-borrower-party-to-lawsuit" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="co-declarations-borrower-party-to-lawsuit-0">
+            <textarea name="co-declarations-borrower-party-to-lawsuit-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Have you directly or indirectly been obligated on any loan which resulted in foreclosure, transfer or title in lieu of foreclosure, or judgment? (This would include such loans as home mortgage loans, SBA loans, home improvement loans, educational loans, manufactured (mobile) home loans, any mortgage, financial obligation, bond, or loan guarantee. If "Yes" provide details, including date, name and address of Lender, FHA or VA case number, if any, and reasons for the action.)</legend>
+            <label>
+                <input type="radio" name="co-declarations-borrower-obligated-loan-resulted-foreclosure-judgment" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="co-declarations-borrower-obligated-loan-resulted-foreclosure-judgment" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="co-declarations-borrower-obligated-loan-resulted-foreclosure-judgment-0">
+            <textarea name="co-declarations-borrower-obligated-loan-resulted-foreclosure-judgment-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Are you presently delinquent or in default on any Federal debt or any other loan, mortgage, financial obligation, bond, or loan guarantee? If "Yes", give details as described in the preceding question.</legend>
+            <label>
+                <input type="radio" name="co-declarations-borrower-delinquent-default-federal-debt" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="co-declarations-borrower-delinquent-default-federal-debt" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="co-declarations-borrower-delinquent-default-federal-debt-0">
+            <textarea name="co-declarations-borrower-delinquent-default-federal-debt-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Are you obligated to pay alimony, child support, or separate maintenance?</legend>
+            <label>
+                <input type="radio" name="co-declarations-borrower-obligated-alimony-child-support-separate-maintenance" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="co-declarations-borrower-obligated-alimony-child-support-separate-maintenance" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="co-declarations-borrower-obligated-alimony-child-support-separate-maintenance-0">
+            <textarea name="co-declarations-borrower-obligated-alimony-child-support-separate-maintenance-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Is any part of the down payment borrowed?</legend>
+            <label>
+                <input type="radio" name="co-declarations-borrower-down-payment-borrowed" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="co-declarations-borrower-down-payment-borrowed" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="co-declarations-borrower-down-payment-borrowed-0">
+            <textarea name="co-declarations-borrower-down-payment-borrowed-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Are you a co-maker or endorser on a note?</legend>
+            <label>
+                <input type="radio" name="co-declarations-borrower-note-comaker-endorser" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="co-declarations-borrower-note-comaker-endorser" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="co-declarations-borrower-note-comaker-endorser-0">
+            <textarea name="co-declarations-borrower-note-comaker-endorser-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Are you a U.S. citizen?</legend>
+            <label>
+                <input type="radio" name="co-declarations-borrower-us-citizen" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="co-declarations-borrower-us-citizen" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Are you a permanent resident alien?</legend>
+            <label>
+                <input type="radio" name="co-declarations-borrower-permanent-resident-alien" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="co-declarations-borrower-permanent-resident-alien" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label data-expander="co-declarations-borrower-permanent-resident-alien-0">
+            <textarea name="co-declarations-borrower-permanent-resident-alien-description" required></textarea>
+            <span>Explain</span>
+        </label>
+        <fieldset>
+            <legend>Do you intend to occupy the property as your primary residence?</legend>
+            <label>
+                <input type="radio" name="co-declarations-borrower-property-borrower-residence" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="co-declarations-borrower-property-borrower-residence" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Have you had an ownership interest in a property in the last three years?</legend>
+            <label>
+                <input type="radio" name="co-declarations-borrower-property-ownership-interest" value="yes" required>
+                <span>Yes</span>
+            </label>
+            <label>
+                <input type="radio" name="co-declarations-borrower-property-ownership-interest" value="no">
+                <span>No</span>
+            </label>
+        </fieldset>
+        <label>
+            <select name="co-declarations-borrower-owned-property-type">
+                <option value="">Select Property Type</option>
+                <option>(PR) Principal Residence</option>
+                <option>(SH) Second Home</option>
+                <option>(IP) Investment Property</option>
+            </select>
+            <span>What type of property did you own?</span>
+        </label>
+        <label>
+            <select name="co-declarations-borrower-owned-property-how-held">
+                <option value="">Select How Held</option>
+                <option>(S) Soly</option>
+                <option>(SP) Jointly With Spouse</option>
+                <option>(O) Jointly With Another Person</option>
+            </select>
+            <span>How did you hold the title to the home?</span>
+        </label>
+    </section>
+    <section>
+        <h2>Information for Government Monitoring Purposes</h2>
+        <p>The following information is requested by the Federal Government for certain types of loans related to a dwelling in order to monitor the lender's compliance with equal credit opportunity, fair housing and home mortgage disclosure laws. You are not required to furnish this information, but are encouraged to do so. The law provides that a lender may discriminate neither on the basis of this information, nor on whether you choose to furnish it. If you furnish the information, please provide both ethnicity and race. For race, you may check more than one designation. If you do not furnish ethnicity, race, or sex, under Federal regulations, this lender is required to note the information on the basis of visual observation or surname. If you do not wish to furnish that information, please check the box below. </p>
+        <em>(Lender must review the above material to assure that he disclosures satisfy all requirements to which the lender is subject under applicable state law for the particular type of loan applied for.)</em>
+        <h3>Borrower</h3>
+        <label>
+            <input type="checkbox" name="gov-info-borrower-equal-opportunity-participation" value="Yes">
+            <span>I would like to participate.</span>
+        </label>
+        <div data-expander="gov-info-borrower-equal-opportunity-participation">
+            <label>
+                <select name="gov-info-borrower-ethnicity" required>
+                    <option value="">Select Ethnicity</option>
+                    <option>American Indian Or Alaskan Native</option>
+                    <option>Asian</option>
+                    <option>Black or African American</option>
+                    <option>Caucasian</option>
+                    <option>Hispanic or Latino</option>
+                    <option>Native Hawaiian or Pacific Islander</option>
+                </select>
+                <span>Ethnicity</span>
+            </label>
+            <label>
+                <select name="gov-info-borrower-sex" required>
+                    <option value="">Select Sex</option>
+                    <option>Female</option>
+                    <option>Male</option>
+                </select>
+                <span>Sex</span>
+            </label>
+        </div>
+        <div data-expander="loan-applying-joint-credit-0">
+            <h3>Co-Borrower</h3>
+            <label>
+                <input type="checkbox" name="gov-info-coborrower-equal-opportunity-participation" value="Yes">
+                <span>I would like to participate.</span>
+            </label>
+            <div data-expander="gov-info-coborrower-equal-opportunity-participation">
+                <label>
+                    <select name="gov-info-coborrower-ethnicity" required>
+                        <option value="">Select Ethnicity</option>
+                        <option>American Indian Or Alaskan Native</option>
+                        <option>Asian</option>
+                        <option>Black or African American</option>
+                        <option>Caucasian</option>
+                        <option>Hispanic or Latino</option>
+                        <option>Native Hawaiian or Pacific Islander</option>
+                    </select>
+                    <span>Ethnicity</span>
+                </label>
+                <label>
+                    <select name="gov-info-coborrower-sex" required>
+                        <option value="">Select Sex</option>
+                        <option>Female</option>
+                        <option>Male</option>
+                    </select>
+                    <span>Sex</span>
+                </label>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Acknowledgement & Agreement</h2>
+        <p>Each of the undersigned specifically represents to Lender and to Lender's actual or potential agents, brokers, processors, attorneys, insurers, servicers, successors and assigns and agrees and acknowledges that: (1) the information provided in this application is true and correct as of the date set forth opposite my signature and that any intentional or negligent misrepresentation of this information contained in this application may result in civil liability, including monetary damages, to any person who may suffer any loss due to reliance upon any misrepresentation that I have made on this application, and/or in criminal penalties including, but not limited to, fine or imprisonment or both under the provisions of Title 18, United States Code, Sec. 1001, et seq.; (2) the loan requested pursuant to this application (the "Loan") will be secured by a mortgage or deed of trust on the property described in this application; (3) the property will not be used for any illegal or prohibited purpose or use; (4) all statements made in this application are made for the purpose of obtaining a residential mortgage loan; (5) the property will be occupied as indicated in this application; (6) the Lender, its servicers, successors or assigns may retain the original and/or an electronic record of this application, whether or not the Loan is approved; (7) the Lender and its agents, brokers, insurers, servicers, successors and assigns may continuously rely on the information contained in the application, and I am obligated to amend and/or supplement the information provided in this application if any of the material facts that I have represented herein should change prior to closing of the Loan; (8) in the event that my payments on the Loan become delinquent, the Lender, its services, successors or assigns may, in addition to any other rights and remedies that it may have relating to such delinquency, report my name and account information to one or more consumer credit reporting agencies; (9) ownership of the Loan and/or administration of the Loan account may be transferred with such notice as may be required by law; (10) neither Lender nor its agents, brokers, insurers, servicers, successors or assigns has made any representation or warranty, express or implied, to me regarding the property or the condition or value of the property; and (11) my transmission of this application as an "electronic record" containing my "electronic signature," as those terms are defined in applicable federal and/or state laws (excluding audio and video recordings), or my facsimile transmission of this application containing a facsimile of my signature, shall be as effective, enforceable and valid as if a paper version of this application were delivered containing my original written signature.</p>
+        <b>Acknowledgement.</b>
+        <p>Each of the undersigned hereby acknowledges that any owner of the Loan, its servicers, successors and assigns, may verify or reverify any information contained in this application or obtain any information or data relating to the Loan, for any legitimate business purpose through any source, including a source named in this application or a consumer reporting agency.</p>
+        <p>I/We fully understand that it is a Federal crime punishable by fine or imprisonment, or both, to knowingly make any false statements concerning any of the above facts as applicable under the provisions of Title 18, United States Code, Section 1001, et seq.</p>
+        <p>Type your name in the box below to represent your electronic signature.</p>
+        <label class="two-thirds">
+            <input type="text" name="borrower-signature" required>
+            <span>Borrower's Signature</span>
+        </label>
+        <label class="thirds">
+            <input class="date" type="text" name="borrower-signature-date" required>
+            <span>Date</span>
+        </label>
+        <div data-expander="loan-applying-joint-credit-0">
+            <label class="two-thirds">
+                <input type="text" name="coborrower-signature" required>
+                <span>Co-Borrower's Signature</span>
+            </label>
+            <label class="thirds">
+                <input class="date" type="text" name="coborrower-signature-date" required>
+                <span>Date</span>
+            </label>
+        </div>
+        <button class="Button1" type="submit">Submit</button>
+    </section>
+</form>
+

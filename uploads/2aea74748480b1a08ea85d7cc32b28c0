@@ -1,0 +1,471 @@
+﻿<form class="fiserv-form" id="the-form" name="the-form" method="post" action="https://whstage1.secureinternetbank.com/secureforms/forms/fiserv/blank">
+
+    <header>
+        <input type="hidden" name="submitClientID" value="B71661D6-0CB6-4C9F-B468-2CEE36BE3877">
+        <input type="hidden" name="submitFormdesc" value="Personal Deposit Application">
+        <input type="hidden" name="submitReDirect" value="../Forms/Fiserv/success.aspx">
+        <input type="hidden" name="secureFormParams" value="">
+        <h1>Checking Account Application</h1>
+    </header>
+    <section>
+        <h2>Important Information About Procedures For Opening A New Account</h2>
+        <h3>(PATRIOT ACT)</h3>
+        <p>To help the government fight the funding of terrorism and money laundering activities, Federal law requires all financial institutions to obtain, verify, and record information that identifies each person who opens an account.</p>
+        <p>What this means for you: When you open an account, we will ask you for your name, address, date of birth, and other information that will allow us to identify you. We may also ask to see your driver's license or other identifying documents.</p>
+
+    </section>
+    <section>
+        <h2>General</h2>
+        <label>
+            <select name="account-type" required>
+                <option value="">Select Account Type</option>
+                <option>Great Rate Checking</option>
+                <option>Free Checking</option>
+                <option>Traditions Regular Checking</option>
+                <option>Home Town Heroes</option>
+                <option>Traditions Plus Interest Checking</option>
+                <option>Legacy Relationship Accounts</option>
+                <option>Club Account</option>
+                <option>Gold Senior Checking</option>
+                <option>Gold Senior Checking with Club Option</option>
+                <option>Scholars Checking</option>
+                <option>Founders Club Checking</option>
+            </select>
+            <span>Account Type</span>
+        </label>
+        <fieldset>
+            <legend>Are you applying for an individual or joint account?</legend>
+            <label>
+                <input type="radio" name="general-joint-account" value="Individual" required>
+                <span>Individual</span>
+            </label>
+            <label>
+                <input type="radio" name="general-joint-account" value="Joint">
+                <span>Joint</span>
+            </label>
+        </fieldset>
+    </section>
+    <section>
+        <h2>Primary Account Holder</h2>
+        <label class="two-thirds">
+            <input type="text" name="primary-first-name" required>
+            <span>First Name</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="primary-middle-initial">
+            <span>Middle Initial</span>
+        </label>
+        <label class="two-thirds">
+            <input type="text" name="primary-last-name" required>
+            <span>Last Name</span>
+        </label>
+        <label class="thirds">
+            <select name="primary-suffix">
+                <option value="">Select Suffix</option>
+                <option>I</option>
+                <option>II</option>
+                <option>III</option>
+                <option>IV</option>
+                <option>Jr.</option>
+                <option>Sr.</option>
+            </select>
+            <span>Suffix</span>
+        </label>
+        <label class="thirds">
+            <input class="ssn" type="text" name="primary-social-security-number" required>
+            <span>Social Security Number</span>
+        </label>
+        <label class="thirds">
+            <input class="date" type="text" name="primary-birth-date" required>
+            <span>Birth Date</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="primary-mothers-maiden-name" required>
+            <span>Mother's Maiden Name</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="primary-driver-license" required>
+            <span>Driver's License Number</span>
+        </label>
+        <label class="thirds">
+            <select name="primary-driver-license-state" required>
+                <option value="">Select State Issued</option>
+                <!-- #include file="inc_form-state-list.aspx" -->
+            </select>
+            <span>State Issued</span>
+        </label>
+        <label class="thirds">
+            <input class="date" type="text" name="primary-driver-license-expiration" required>
+            <span>Date of Expiration</span>
+        </label>
+        <label>
+            <input type="text" name="primary-address" required>
+            <span>Street Address</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="primary-city" required>
+            <span>City</span>
+        </label>
+        <label class="thirds">
+            <select name="primary-state" required>
+                <option value="">Select State</option>
+                <!-- #include file="inc_form-state-list.aspx" -->
+            </select>
+            <span>State</span>
+        </label>
+        <label class="thirds">
+            <input class="zip" type="text" name="primary-zip-code" required>
+            <span>Zip Code</span>
+        </label>
+        <label>
+            <input type="checkbox" name="primary-mailing-not-street-address" value="yes">
+            <span>Mailing address is different than street address.</span>
+        </label>
+        <div data-expander="primary-mailing-not-street-address">
+            <label>
+                <input type="text" name="primary-mailing-address" required>
+                <span>Mailing Address</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="primary-mailing-city" required>
+                <span>City</span>
+            </label>
+            <label class="thirds">
+                <select name="primary-mailing-state" required>
+                    <option value="">Select State</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State</span>
+            </label>
+            <label class="thirds">
+                <input class="zip" type="text" name="primary-mailing-zip-code" required>
+                <span>Zip Code</span>
+            </label>
+        </div>
+        <label class="half">
+            <input type="tel" name="primary-home-phone" required>
+            <span>Home Phone Number</span>
+        </label>
+        <label class="half">
+            <input type="tel" name="primary-work-phone">
+            <span>Work Phone Number</span>
+        </label>
+        <label>
+            <input type="email" name="primary-email-address" required>
+            <span>E-mail Address</span>
+        </label>
+        <label data-expander="primary-email-address">
+            <input type="checkbox" name="primary-do-not-email" value="ON">
+            <span>Please do NOT email me important news and updates.</span>
+        </label>
+        <label>
+            <input type="text" name="primary-occupation" required>
+            <span>Occupation</span>
+        </label>
+        <label>
+            <input type="text" name="primary-employer" required>
+            <span>Employer Name</span>
+        </label>
+    </section>
+    <section data-expander="general-joint-account-1">
+        <h2>Joint Account Holder</h2>
+        <label class="two-thirds">
+            <input type="text" name="joint-primary-first-name" required>
+            <span>First Name</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="joint-primary-middle-initial">
+            <span>Middle Initial</span>
+        </label>
+        <label class="two-thirds">
+            <input type="text" name="joint-primary-last-name" required>
+            <span>Last Name</span>
+        </label>
+        <label class="thirds">
+            <select name="joint-primary-suffix">
+                <option value="">Select Suffix</option>
+                <option>I</option>
+                <option>II</option>
+                <option>III</option>
+                <option>IV</option>
+                <option>Jr.</option>
+                <option>Sr.</option>
+            </select>
+            <span>Suffix</span>
+        </label>
+        <label class="thirds">
+            <input class="ssn" type="text" name="joint-primary-social-security-number" required>
+            <span>Social Security Number</span>
+        </label>
+        <label class="thirds">
+            <input class="date" type="text" name="joint-primary-birth-date" required>
+            <span>Birth Date</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="joint-primary-mothers-maiden-name" required>
+            <span>Mother's Maiden Name</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="joint-primary-driver-license" required>
+            <span>Driver's License Number</span>
+        </label>
+        <label class="thirds">
+            <select name="joint-primary-driver-license-state" required>
+                <option value="">Select State Issued</option>
+                <!-- #include file="inc_form-state-list.aspx" -->
+            </select>
+            <span>State Issued</span>
+        </label>
+        <label class="thirds">
+            <input class="date" type="text" name="joint-primary-driver-license-expiration" required>
+            <span>Date of Expiration</span>
+        </label>
+        <label>
+            <input type="text" name="joint-primary-address" required>
+            <span>Street Address</span>
+        </label>
+        <label class="thirds">
+            <input type="text" name="joint-primary-city" required>
+            <span>City</span>
+        </label>
+        <label class="thirds">
+            <select name="joint-primary-state" required>
+                <option value="">Select State</option>
+                <!-- #include file="inc_form-state-list.aspx" -->
+            </select>
+            <span>State</span>
+        </label>
+        <label class="thirds">
+            <input class="zip" type="text" name="joint-primary-zip-code" required>
+            <span>Zip Code</span>
+        </label>
+        <label>
+            <input type="checkbox" name="joint-primary-mailing-not-street-address" value="yes">
+            <span>Mailing address is different than street address.</span>
+        </label>
+        <div data-expander="joint-primary-mailing-not-street-address">
+            <label>
+                <input type="text" name="joint-primary-mailing-address" required>
+                <span>Mailing Address</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="joint-primary-mailing-city" required>
+                <span>City</span>
+            </label>
+            <label class="thirds">
+                <select name="joint-primary-mailing-state" required>
+                    <option value="">Select State</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State</span>
+            </label>
+            <label class="thirds">
+                <input class="zip" type="text" name="joint-primary-mailing-zip-code" required>
+                <span>Zip Code</span>
+            </label>
+        </div>
+        <label class="half">
+            <input type="tel" name="joint-primary-home-phone" required>
+            <span>Home Phone Number</span>
+        </label>
+        <label class="half">
+            <input type="tel" name="joint-primary-work-phone">
+            <span>Work Phone Number</span>
+        </label>
+        <label>
+            <input type="email" name="joint-primary-email-address" required>
+            <span>E-mail Address</span>
+        </label>
+        <label data-expander="joint-primary-email-address">
+            <input type="checkbox" name="joint-primary-do-not-email" value="ON">
+            <span>Please do NOT email me important news and updates.</span>
+        </label>
+        <label>
+            <input type="text" name="joint-primary-occupation" required>
+            <span>Occupation</span>
+        </label>
+        <label>
+            <input type="text" name="joint-primary-employer" required>
+            <span>Employer Name</span>
+        </label>
+    </section>
+    <section>
+        <h2>Ownership</h2>
+        <fieldset>
+            <legend>Ownership type</legend>
+            <label>
+                <input type="radio" name="ownership" value="Payable-On-Death" required>
+                <span>Payable on Death</span>
+            </label>
+            <label>
+                <input type="radio" name="ownership" value="Single-Owner-Individual" required>
+                <span>Single Owner (individual)</span>
+            </label>
+            <label>
+                <input type="radio" name="ownership" value="Joint-With-Right-To-Survivorship" required>
+                <span>Joint (with right to survivorship)</span>
+            </label>
+            <label>
+                <input type="radio" name="ownership" value="Joint-With-No-Right-To-Survivorship" required>
+                <span>Joint (with no right to survivorship)</span>
+            </label>
+        </fieldset>
+        <div data-expander="ownership-0">
+            <p>If payable on death, enter beneficiary information.</p>
+            <label class="two-thirds">
+                <input type="text" name="beneficiary-first-name" required>
+                <span>First Name</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="beneficiary-middle-initial">
+                <span>Middle Initial</span>
+            </label>
+            <label class="two-thirds">
+                <input type="text" name="beneficiary-last-name" required>
+                <span>Last Name</span>
+            </label>
+            <label class="thirds">
+                <select name="beneficiary-suffix">
+                    <option value="">Select Suffix</option>
+                    <option>I</option>
+                    <option>II</option>
+                    <option>III</option>
+                    <option>IV</option>
+                    <option>Jr.</option>
+                    <option>Sr.</option>
+                </select>
+                <span>Suffix</span>
+            </label>
+            <label>
+                <input class="ssn" type="text" name="beneficiary-social-security-number" required>
+                <span>Social Security Number</span>
+            </label>
+            <label>
+                <input type="text" name="beneficiary-address" required>
+                <span>Street Address</span>
+            </label>
+            <label class="thirds">
+                <input type="text" name="beneficiary-city" required>
+                <span>City</span>
+            </label>
+            <label class="thirds">
+                <select name="beneficiary-state" required>
+                    <option value="">Select State</option>
+                    <!-- #include file="inc_form-state-list.aspx" -->
+                </select>
+                <span>State</span>
+            </label>
+            <label class="thirds">
+                <input class="zip" type="text" name="beneficiary-zip-code" required>
+                <span>Zip Code</span>
+            </label>
+            <label>
+                <input type="text" name="payable-on-death-relationship" required>
+                <span>Relationship to holder</span>
+            </label>
+        </div>
+    </section>
+    <section>
+        <h2>Opening Deposit</h2>
+        <label class="half">
+            <input class="currency" type="text" name="opening-deposit-amount" required>
+            <span>Deposit Amount</span>
+        </label>
+        <label class="half">
+            <select name="deposit-type" required>
+                <option value="">Select Deposit Type</option>
+                <option>Check</option>
+                <option>ACH</option>
+                <option>Wire Transfer</option>
+                <option>Credit Card</option>
+            </select>
+            <span>Deposit Type</span>
+        </label>
+    </section>
+    <section>
+        <h2>Account Preferences</h2>
+        <fieldset>
+            <legend>Check all that apply</legend>
+            <label>
+                <input type="checkbox" name="account-preferences-check-card" value="visa-check-card">
+                <span>Visa Check Card</span>
+            </label>
+            <label>
+                <input type="checkbox" name="account-preferences-atm-card" value="atm-card">
+                <span>ATM Card</span>
+            </label>
+            <label>
+                <input type="checkbox" name="account-preferences-telephone-banking" value="telephone-banking">
+                <span>Telephone Banking</span>
+            </label>
+            <label>
+                <input type="checkbox" name="account-preferences-check-order" value="place-check-order">
+                <span>Would you like us to place a Check Order for you?</span>
+            </label>
+            <label>
+                <input type="checkbox" name="account-preferences-overdraft-protection" value="overdraft-protection-application">
+                <span>Would you like an application for Overdraft Protection?</span>
+            </label>
+            <label>
+                <input type="checkbox" name="account-preferences-bill-payment" value="bill-payment">
+                <span>Bill Payment</span>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Signature Card</legend>
+            <label>
+                <input type="radio" name="signature-card" value="I would like to come in and sign my Signature Card and make my deposit.">
+                <span>I would like to come in and sign my Signature Card and make my deposit.</span>
+            </label>
+            <p data-expander="signature-card-0">We will contact you upon account approval to schedule a time that is convenient.</p>
+            <label>
+                <input type="radio" name="signature-card" value="I would like for my Welcome Kit to be mailed to me and I will complete my signature card and send in a deposit.">
+                <span>I would like for my Welcome Kit to be mailed to me and I will complete my signature card and send in a deposit.</span>
+            </label>
+        </fieldset>
+    </section>
+    <section>
+        <h2>Endorsement</h2>
+        <label>
+            <input type="checkbox" name="taxpayer-identification-condition-of-acceptance" value="condition-of-acceptance">
+            <span>As a condition of acceptance of my deposit application, I authorize you to obtain a copy of my current credit report and subsequent reports for the purpose of an update, renewal or extension of credit.</span>
+        </label>
+        <label>
+            <input type="checkbox" name="taxpayer-identification-not-subject-backup-withholding" value="not-subject-to-backup-withholding">
+            <span>I am not subject to backup withholding, because I am exempt from backup withholding, or because I have not been notified by the IRS that I am subject to backup withholding as a result of failure to report all interest or dividends, or because the IRS has notified me that I am no longer subject to backup withholding.</span>
+        </label>
+        <label>
+            <input type="checkbox" name="taxpayer-identification-subject-backup-withholding" value="subject-to-backup-withholding">
+            <span>I am subject to backup withholding.</span>
+        </label>
+        <label>
+            <input type="checkbox" name="taxpayer-identification-not-citizen-or-resident" value="not-US-citizen-or-resident">
+            <span>I am not a United States citizen or resident.</span>
+        </label>
+        <label>
+            <input type="checkbox" name="taxpayer-identification-certify-all-correct" value="certify-all-correct" required>
+            <span>I certify under penalties of perjury that the statements contained in this section are correct.</span>
+        </label>
+        <p>By submitting this application, I certify that I/we gave truthfully and fully provided the information required and that I am at least 18 years of age and live in the US. I certify that I have read and agreed to all the <a href="">Terms & Conditions</a>, <a href="">Disclosures</a>, and <a href="">Privacy Policy</a>. I agree that I may receive electronic communications posted on the Fiserv web site or delivered to the e-mail address I provide, including information required by various laws and regulations. I authorize Fiserv to access my credit bureau information, check my employment, and report to credit reporting agencies Fiserv's experience with me.</p>
+        <label class="two-thirds">
+            <input type="text" name="primary-signature" required>
+            <span>Primary Account Holder's Signature</span>
+        </label>
+        <label class="thirds">
+            <input class="date" type="text" name="primary-signature-date" required>
+            <span>Date</span>
+        </label>
+        <div data-expander="general-joint-account-1">
+            <label class="two-thirds">
+                <input type="text" name="coapplicant-signature" required>
+                <span>Joint Account Holder's Signature</span>
+            </label>
+            <label class="thirds">
+                <input class="date" type="text" name="coapplicant-signature-date" required>
+                <span>Date</span>
+            </label>
+        </div>
+        <button class="Button1" type="submit">Submit</button>
+    </section>
+</form>
+
